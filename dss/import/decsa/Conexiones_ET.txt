@@ -1,0 +1,5 @@
+New Line.Conexion_ET_Bus_1373 bus1=BusET bus2=1373 length=1 units=m r1=0.000275299 r0=0.000420731 x1=0.000297103 x0=0.00169017 c1=0.0125692 c0=0.00375209 enabled=True phases=3
+New Line.Conexion_ET_Bus_1407 bus1=BusET bus2=1407 length=1 units=m r1=0.000275299 r0=0.000420731 x1=0.000297103 x0=0.00169017 c1=0.0125692 c0=0.00375209 enabled=True phases=3
+New Line.Conexion_ET_Bus_61 bus1=BusET bus2=61 length=1 units=m r1=0.000275299 r0=0.000420731 x1=0.000297103 x0=0.00169017 c1=0.0125692 c0=0.00375209 enabled=True phases=3
+New Line.Conexion_ET_Bus_67 bus1=BusET bus2=67 length=1 units=m r1=0.000275299 r0=0.000420731 x1=0.000297103 x0=0.00169017 c1=0.0125692 c0=0.00375209 enabled=True phases=3
+New Line.Conexion_ET_Bus_1366 bus1=BusET bus2=1366 length=1 units=m r1=0.000275299 r0=0.000420731 x1=0.000297103 x0=0.00169017 c1=0.0125692 c0=0.00375209 enabled=True phases=3

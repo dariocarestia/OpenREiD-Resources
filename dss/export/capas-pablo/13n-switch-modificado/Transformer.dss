@@ -1,0 +1,2 @@
+New Transformer.transformadorsubstation tap=1.0 wdg=1 bus=substation115kv.1.2.3 wdg=2 bus=650.1.2.3 xfmrcode=substationtyp3ph
+New Transformer.xfm_1 tap=1.0 wdg=1 bus=633.1.2.3 wdg=2 bus=634.1.2.3 xfmrcode=xfm_1typ

@@ -1,0 +1,4 @@
+New LineSpacing.LineConfig601_Spacing nconds=4 nphases=3 x=(-0.3048, -1.0668, 1.0668, 0.1523999951232) h=(8.5344, 8.5344, 8.5344, 7.31519976591361) units=m 
+New LineSpacing.LineConfig602_Spacing nconds=4 nphases=3 x=(-0.3048, 1.0668, -1.0668, 0.1523999951232) h=(8.5344, 8.5344, 8.5344, 7.31519976591361) units=m 
+New LineSpacing.LineConfig603_604_Spacing nconds=3 nphases=2 x=(-1.0668, 1.0668, 0.1523999951232) h=(8.5344, 8.5344, 7.31519976591361) units=m 
+New LineSpacing.LineConfig605_Spacing nconds=2 nphases=1 x=(0.0, 0.1523999951232) h=(8.8392, 7.31519976591361) units=m 

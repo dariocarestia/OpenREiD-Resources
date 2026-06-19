@@ -1,0 +1,1 @@
+New Relay.Reconectador_24 MonitoredObj=LINE.IDLinea664_IDTramos_24 monitoredterm=1  State=Closed

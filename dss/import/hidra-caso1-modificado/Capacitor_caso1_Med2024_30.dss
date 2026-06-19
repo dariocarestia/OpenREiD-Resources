@@ -1,0 +1,3 @@
+New "Capacitor.Cap01_0050" bus1=3806706_P_2 phases=3 kvar=5 kv=0.4 
+New "Capacitor.Cap02_0100" bus1=3806374_P_2 phases=3 kvar=10 kv=0.4 
+New "Capacitor.Cap03_0070" bus1=3812380_P_1 phases=3 kvar=7 kv=10.0 

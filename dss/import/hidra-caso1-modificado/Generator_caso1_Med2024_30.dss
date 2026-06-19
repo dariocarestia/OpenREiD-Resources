@@ -1,0 +1,2 @@
+New "Generator.GBio01_0100" phases=3 bus1=3810140_P_1 kv=10 kW=10 pf=0.8 daily=GBio01_0100 
+New "Generator.GGe01_0100" phases=3 bus1=3807864_P_1 kv=10 kW=10 pf=0.8 daily=GGe01_0100 

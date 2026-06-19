@@ -1,0 +1,3 @@
+New Swtcontrol.switch SwitchedObj=Line.switch SwitchedTerm=1 State=Closed
+New Swtcontrol.75cd8275-35d9-4468-8f5e-4f5becc00c69 SwitchedObj=Line.879a22ee-82c6-4480-85e9-f844c133c7ea SwitchedTerm=1 State=Closed
+New Swtcontrol.b7053977-c0de-4dfa-9367-d3e79a3bd750 SwitchedObj=Line.lohl632_645 SwitchedTerm=1 State=closed

@@ -1,0 +1,39 @@
+! Circuito Caucete_RedMT - Escenario_Base - Caso_1:
+!==================================================
+
+Clear
+
+Set DefaultBaseFrequency=50
+
+Redirect ET_Caucete.txt
+Redirect WireData.txt
+Redirect LineGeometry.txt
+Redirect Conexiones_ET.txt
+Redirect Red_MT.txt
+Redirect Transformadores.txt
+Redirect Reconectadores.txt
+Redirect FusiblesAbiertos.txt
+Redirect FusiblesCerrados.txt
+Redirect Elementos_NoFusiblesCerrados.txt
+Redirect Elementos_NoFusiblesAbiertos.txt
+!-----------------
+Redirect LoadShapeSem_Escenario_Base.txt
+Redirect Demanda_Escenario_Base_Caso_1.txt
+!-----------------
+
+Set voltagebases=[13.2, 33, 0.380]
+Calcvoltagebases
+
+!==SimularFlujodeCarga-Instantanea(Snap)-DemandaTotal:
+
+set mode=Snapshot
+
+solve
+
+// BusCoords Bus.txt
+LatLongCoords nodos_wgs84_ordenado.csv
+
+
+Edit LINE.CONEXION_ET_BUS_1366
+~ units=m
+

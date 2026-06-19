@@ -1,0 +1,63 @@
+! Circuito Caucete_RedMT - Escenario_01_2023 - Caso_1:
+!==================================================
+
+Clear
+
+Set DefaultBaseFrequency=50
+
+Redirect ET_Caucete.txt
+Redirect WireData.txt
+Redirect LineGeometry.txt
+Redirect Conexiones_ET.txt
+Redirect Red_MT.txt
+Redirect Transformadores.txt
+Redirect Reconectadores.txt
+Redirect FusiblesAbiertos.txt
+Redirect FusiblesCerrados.txt
+Redirect Elementos_NoFusiblesCerrados.txt
+Redirect Elementos_NoFusiblesAbiertos.txt
+!-----------------
+Redirect LoadShapeSem_Escenario_01_2023.txt
+Redirect Demanda_Escenario_01_2023_Caso_1.txt
+!-----------------
+
+Set voltagebases=[13.2, 33, 0.380]
+Calcvoltagebases
+
+! Define bus coordinates
+// Buscoords Bus.txt
+
+!============== Simular Flujo de Carga - Instantanea (Snap) - Demanda Total:
+
+set mode=Snapshot
+Solve
+LatLongCoords nodos_wgs84_ordenado.csv
+
+!============== Simular Flujo de Carga - Instantanea (Snap) - Demanda Maxima: Lunes 15hs:
+
+// set mode = daily
+// set stepsize = 1h
+// set number = 1
+// set hour = 15
+// Solve
+
+!============== Simular Flujo de Carga - Valores Extremos:
+
+! Valor Maximo Registrado a las 15hs del dia Lunes --> Muestra Semanal: 16 --> set hour = 15
+! Valor Minimo Registrado a las 6hs del dia Viernes --> Muestra Semanal: 103 --> set hour = 102
+
+!============== Codigo Adicional - Graficos:
+
+! Grafico de Flujo de Potencia:
+! plot circuit Power Max=2000 dots=n labels=n subs=y C1=Blue 1phlinestyle=3
+
+! Grafico de Tensiones:
+! plot circuit Voltage Max=200 dots=n labels=n subs=y C1=Blue 1phlinestyle=3
+
+! Grafico de Perdidas:
+! plot circuit Losses Max=20 dots=n labels=n subs=y C1=Blue 1phlinestyle=3
+
+!Set MarkFuses=yes
+// Set MarkRelays=yes
+// Set RelayMarkerCode= 47
+// Set RelayMarkerSize=2

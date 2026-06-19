@@ -1,0 +1,73 @@
+!! frecuencia base
+Set DefaultBaseFrequency=50
+
+!!Ruta del archivo
+Set datapath=C:...
+
+!!Borro variables/inicializo
+Clear
+
+!! Creamos el circuito y bus o nodo slack  
+new circuit.red13nptrafo basekV=132 pu=1.0 angle=0 frequency=50 phases=3 bus1=C/D model=ideal  !!bus1 es barra slack, model=ideal no tiene impedancia interna la fuente
+
+!!Transformadores
+New transformer.trafose1 phases=3 winding=2 buses=(C/D 650)  conns=(delta wye) kvs=(132 13.2) kvas=(10000 10000) xhl=5 
+
+!!Tipos de Linea
+new linecode.alac95 nphases=3 R1=0.4 X1=0.3 units=km normamps=300                                     !!creo el tipo de linea o conductor (impedancias) esta en ohms/km
+new linecode.alac70 nphases=3 R1=0.5 X1=0.35 units=km normamps=250                                    
+new linecode.alac50 nphases=3 R1=0.7 X1=0.4 units=km normamps=190                                     
+new linecode.alac25 nphases=3 R1=1.2 X1=0.45 units=km normamps=130                                    
+
+!!Lineas
+new line.650632 bus1=650 bus2=632 length=2 phases=3 units=km linecode=alac95                 !!creo las lineas
+new line.632633 bus1=632 bus2=633 length=1 phases=3 units=km linecode=alac50 
+new line.632645 bus1=632 bus2=645 length=0.5 phases=3 units=km linecode=alac50           
+new line.645646 bus1=645 bus2=646 length=0.5 phases=3 units=km linecode=alac50
+new line.632671 bus1=632 bus2=671 length=2 phases=3 units=km linecode=alac95 
+new line.671675 bus1=671 bus2=675 length=1 phases=3 units=km linecode=alac50
+new line.671684 bus1=671 bus2=684 length=1.5 phases=3 units=km linecode=alac70
+new line.684611 bus1=684 bus2=611 length=0.5 phases=3 units=km linecode=alac25
+new line.684652 bus1=684 bus2=652 length=1 phases=3 units=km linecode=alac25     
+
+!!Perfiles de carga diarios
+!!new loadshape.ls645 npts=24 interval=1 mult=(file=perfilcarga645.CSV)  !!tambien puedo cargar el perfil de demanda desde cvs
+!!si ejecuto OpenDSS desde Python, solamente debo crear los perfiles de carga (no importa que todos los loadsh sean iguales); con Python los puedo ir modificando 
+new LoadShape.ls645 npts=24 interval=1 mult=[0.7 0.6 0.6 0.6 0.6 0.6 0.7 0.7 0.7 0.8 0.9 1.0 1.0  0.9 0.9 0.8 0.7 0.7 0.7 0.8 0.8 0.8 0.7 0.7] useactual=false
+new LoadShape.ls646 npts=24 interval=1 mult=[0.7 0.6 0.6 0.6 0.6 0.6 0.7 0.7 0.7 0.8 0.9 1.0 1.0  0.9 0.9 0.8 0.7 0.7 0.7 0.8 0.8 0.8 0.7 0.7] useactual=false
+new LoadShape.ls633 npts=24 interval=1 mult=[0.6 0.4 0.4 0.2 0.2 0.2 0.4 0.6 0.7 0.8 0.9 1.0 0.95 0.9 0.7 0.6 0.6 0.7 0.8 0.8 0.9 0.9 0.8 0.6] useactual=false 
+new LoadShape.ls675 npts=24 interval=1 mult=[0.6 0.4 0.4 0.2 0.2 0.2 0.4 0.6 0.7 0.8 0.9 1.0 0.95 0.9 0.7 0.6 0.6 0.7 0.8 0.8 0.9 0.9 0.8 0.6] useactual=false 
+new LoadShape.ls611 npts=24 interval=1 mult=[0.8 0.4 0.25 0.2 0.2 0.2 0.2 0.25 0.25 0.2 0.2 0.2 0.4 0.6 0.8 0.8 0.6 0.6 0.6 0.7 0.8 0.95 1.0 0.9] useactual=false
+new LoadShape.ls652 npts=24 interval=1 mult=[0.8 0.4 0.25 0.2 0.2 0.2 0.2 0.25 0.25 0.2 0.2 0.2 0.4 0.6 0.8 0.8 0.6 0.6 0.6 0.7 0.8 0.95 1.0 0.9] useactual=false
+
+!!Cargas
+new load.carga645 bus1=645 phases=3 kV=13.2 kW=1200 pf=0.9 model=1 conn=delta daily=ls645   !!tipo industrial
+new load.carga646 bus1=646 phases=3 kV=13.2 kW=1500 pf=0.9 model=1 conn=delta daily=ls646   !!tipo industrial
+new load.carga633 bus1=633 phases=3 kV=13.2 kW=800 pf=0.85 model=1 conn=delta daily=ls633   !!tipo comercial
+new load.carga675 bus1=675 phases=3 kV=13.2 kW=900 pf=0.85 model=1 conn=delta daily=ls675   !!tipo comercial
+new load.carga611 bus1=611 phases=3 kV=13.2 kW=500 pf=0.8 model=1 conn=delta daily=ls611    !!tipo residencial
+new load.carga652 bus1=652 phases=3 kV=13.2 kW=600 pf=0.8 model=1 conn=delta daily=ls652    !!tipo residencial
+
+!!Capacitores
+new capacitor.cap1 bus1=675 kv=13.2 kvar=250 conn=wye phases=3   
+new capacitor.cap2 bus1=611 kv=13.2 kvar=250 conn=wye phases=3 
+
+!!Para q los resultados me den en por unidad (p.u.)
+Set Voltagebases=[132 13.2]   !!se colocan las tensiones base porque OpenDSS hace el calculo de Flujo de Potencia en valores reales (es decir, no necesita tensiones de base para el calculo del FP); es para poder ver los resultados en p.u.
+CalcVoltageBases
+
+!!Modo de control y solucion
+set controlmode=off     !!deja de funcionar todos los elementos de control/regulacion, modo static: los reguladores actuan para llevar las tensiones dentro de los limites permitidos
+set mode=snapshot       !!flujo de potencia 1 escenario
+
+!!***modo daily***      !!para Flujo de potencia horario, todo el dia (24h)
+!!set mode=daily
+!!set number=24
+!!set stepsize=1h
+!!set hour=0            !!hora de inicio
+!!***modo daily***
+
+solve                   !!EJECUTA EL FP
+ 
+!!Grafica en OpenDSS similar al diagrama unifilar 
+buscoords coordenadasred13nptrafo.csv   !!archivo .csv con las coordenadas de cada nodo del circuito

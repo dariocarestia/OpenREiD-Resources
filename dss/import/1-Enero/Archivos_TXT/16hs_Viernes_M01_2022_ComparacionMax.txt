@@ -1,0 +1,35 @@
+Comparacion entre Informacion de Capa de Usuarios y Mediciones segun BD:
+
+Fecha de Comparacion: 16hs Viernes 01/2022
+
+---------------------------------------------------------
+Total Consumido en DE LOS RIOS segun Capa de Usuarios = 1714.4245784289737 MW
+Total Consumido en SANTA ROSA  segun Capa de Usuarios = 2980.9301019397294 MW
+Total Consumido en COOPERATIVA segun Capa de Usuarios = 3072.7153981488664 MW
+Total Consumido en CACENTRO    segun Capa de Usuarios = 3146.3464523873495 MW
+
+Consumo Medido en DE LOS RIOS segun BD = 2109.7 MW
+Consumo Medido en SANTA ROSA  segun BD = 3503.625 MW
+Consumo Medido en COOPERATIVA segun BD = 3065.9 MW
+Consumo Medido en CACENTRO    segun BD = 3320.55 MW
+---------------------------------------------------------
+
+Diferencia respecto a Mediciones:
+DE LOS RIOS  = -18.7%
+SANTA ROSA   = -14.9%
+COOPERATIVA  = 0.2%
+CACENTRO     = -5.2%
+
+Consumo Total:
+Segun Capa de Usuarios = 10914.416530904919 MW
+Segun Mediciones de BD = 11999.775000000001 MW
+
+Diferencia respecto a Mediciones   = -1085.358469095083 MW
+Diferencia respecto a Mediciones % = -9.0%
+
+---------------------------------------------------------
+Factor de Carga utilizado:
+FC DE LOS RIOS  = 0.865
+FC SANTA ROSA   = 0.727
+FC COOPERATIVA  = 0.725
+FC CACENTRO     = 0.777

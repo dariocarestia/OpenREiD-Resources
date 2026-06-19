@@ -1,0 +1,6 @@
+Esta red se crea para modelar las líneas ahora utilizando:
+Line+LineCode
+
+Se modifica tambien el Master.dss
+Se crean los LineCode a partir de las constantes calculadas por el plugin de Zarzavilla-Robles
+

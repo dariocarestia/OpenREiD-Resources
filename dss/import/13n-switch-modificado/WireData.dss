@@ -1,0 +1,3 @@
+New "WireData.556_5ACSR" DIAM=23.5458 GMRac=11.21664 Rdc=0.115512 Runits=km GMRunits=mm Radunits=mm normamps=730 
+New "WireData.n1ACSR" DIAM=10.1092 GMRac=1.359408 Rdc=0.695935 Runits=km GMRunits=mm Radunits=mm normamps=230 
+New "WireData.n4ACSR" DIAM=14.3002 GMRac=2.481072 Rdc=0.367852 Runits=km GMRunits=mm Radunits=mm normamps=340 

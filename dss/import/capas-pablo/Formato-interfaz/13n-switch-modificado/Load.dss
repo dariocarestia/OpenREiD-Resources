@@ -1,0 +1,15 @@
+New Load.L611_YcI_ph.3 bus1=611.3 phases=1 conn=LN model=1 kV=2.402 Kw=170 kvar=80 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L634_YcPQ_ph.1 bus1=634.1 phases=1 conn=LN model=1 kV=0.277 Kw=160 kvar=110 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L634_YcPQ_ph.2 bus1=634.2 phases=1 conn=LN model=1 kV=0.277 Kw=120 kvar=90 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L634_YcPQ_ph.3 bus1=634.3 phases=1 conn=LN model=1 kV=0.277 Kw=120 kvar=90 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L645_YcPQ_ph.2 bus1=645.2 phases=1 conn=LN model=1 kV=2.402 Kw=170 kvar=125 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L646_DcZ bus1=646.3.2 phases=1 conn=LL model=1 kV=4.16 Kw=230 kvar=132 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L652_YcZ_ph.1 bus1=652.1 phases=1 conn=LN model=1 kV=2.402 Kw=128 kvar=86 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L571_DcPQ_ph.1 bus1=671.1 phases=1 conn=LL model=1 kV=2.402 Kw=385 kvar=220 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L571_DcPQ_ph.2 bus1=671.2 phases=1 conn=LL model=1 kV=2.402 Kw=385 kvar=220 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L571_DcPQ_ph.3 bus1=671.3 phases=1 conn=LL model=1 kV=2.402 Kw=385 kvar=220 Vminpu=0.9 Vmaxpu=1.1 
+New Load.DistributedLoad bus1=671.1.2.3 phases=3 conn=LN model=1 kV=4.16 Kw=200 kvar=116 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L675_YcPQ_ph.1 bus1=675.1 phases=1 conn=LN model=1 kV=2.402 Kw=485 kvar=190 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L675_YcPQ_ph.2 bus1=675.2 phases=1 conn=LN model=1 kV=2.402 Kw=68 kvar=60 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L675_YcPQ_ph.3 bus1=675.3 phases=1 conn=LN model=1 kV=2.402 Kw=290 kvar=212 Vminpu=0.9 Vmaxpu=1.1 
+New Load.L692_DcI bus1=692.3.1 phases=1 conn=LL model=1 kV=4.16 Kw=170 kvar=151 Vminpu=0.9 Vmaxpu=1.1 

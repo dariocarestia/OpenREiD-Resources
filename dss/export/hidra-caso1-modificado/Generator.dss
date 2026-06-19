@@ -1,0 +1,2 @@
+New Generator.gbio01_0100 bus1=3810140_p_1.1.2.3 phases=3 kv=10.0 kw=10.0 pf=0.8 daily=GBio01_0100
+New Generator.gge01_0100 bus1=3807864_p_1.1.2.3 phases=3 kv=10.0 kw=10.0 pf=0.8 daily=GGe01_0100

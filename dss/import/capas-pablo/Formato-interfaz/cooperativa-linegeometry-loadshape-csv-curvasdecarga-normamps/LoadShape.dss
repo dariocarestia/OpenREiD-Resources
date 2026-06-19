@@ -1,0 +1,20 @@
+!---VERANO-HABIL---(Para habilitar, quitar comentario a las curvas)
+new loadshape.332 npts=24 interval=1 csvfile=verano-habil-332.csv
+new loadshape.333 npts=24 interval=1 csvfile=verano-habil-333.csv
+new loadshape.334 npts=24 interval=1 csvfile=verano-habil-334.csv
+new loadshape.335 npts=24 interval=1 csvfile=verano-habil-335.csv
+!---VERANO-FERIADO---
+!new loadshape.332 npts=24 interval=1 csvfile=verano-feriado-332.csv
+!new loadshape.333 npts=24 interval=1 csvfile=verano-feriado-333.csv
+!new loadshape.334 npts=24 interval=1 csvfile=verano-feriado-334.csv
+!new loadshape.335 npts=24 interval=1 csvfile=verano-feriado-335.csv
+!---INVIERNO-HABIL---
+!new loadshape.332 npts=24 interval=1 csvfile=invierno-habil-332.csv
+!new loadshape.333 npts=24 interval=1 csvfile=invierno-habil-333.csv
+!new loadshape.334 npts=24 interval=1 csvfile=invierno-habil-334.csv
+!new loadshape.335 npts=24 interval=1 csvfile=invierno-habil-335.csv
+!---INVIERNO-FERIADO---
+!new loadshape.332 npts=24 interval=1 csvfile=invierno-feriado-332.csv
+!new loadshape.333 npts=24 interval=1 csvfile=invierno-feriado-333.csv
+!new loadshape.334 npts=24 interval=1 csvfile=invierno-feriado-334.csv
+!new loadshape.335 npts=24 interval=1 csvfile=invierno-feriado-335.csv

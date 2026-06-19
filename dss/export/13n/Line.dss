@@ -1,0 +1,12 @@
+New Line.lc684_652a bus1=684 bus2=652 length=1.0 units=0 r1=0.222002 r0=0.222002 x1=0.07947 x0=0.07947 c1=40.44677780068159 c0=40.44677780068159 enabled=true phases=1
+New Line.lc692_675 bus1=692 bus2=675 length=1.0 units=0 r1=0.033997 r0=0.061029 x1=0.042027 x0=0.331502 c1=31.19455983194319 c0=31.19455983194319 enabled=true phases=3
+New Line.lohl632_633 bus1=632 bus2=633 length=0.1524 units=3 r1=0.058 r0=0.1784 x1=0.1206 x0=0.4047 c1=3.4 c0=1.6 enabled=true phases=3
+New Line.lohl632_645 bus1=632 bus2=645 length=0.1524 units=3 r1=0.058 r0=0.1784 x1=0.1206 x0=0.4047 c1=3.4 c0=1.6 enabled=true phases=2
+New Line.lohl632_671 bus1=632 bus2=671 length=0.6096 units=3 r1=0.058 r0=0.1784 x1=0.1206 x0=0.4047 c1=3.4 c0=1.6 enabled=true phases=3
+New Line.lohl645_646 bus1=645 bus2=646 length=0.09144 units=3 r1=0.058 r0=0.1784 x1=0.1206 x0=0.4047 c1=3.4 c0=1.6 enabled=true phases=2
+New Line.lohl650_632 bus1=rg60 bus2=632 length=0.609599 units=3 r1=0.058 r0=0.1784 x1=0.1206 x0=0.4047 c1=3.4 c0=1.6 enabled=true phases=3
+New Line.lohl671_680 bus1=671 bus2=680 length=0.3048 units=3 r1=0.058 r0=0.1784 x1=0.1206 x0=0.4047 c1=3.4 c0=1.6 enabled=true phases=3
+New Line.lohl671_684 bus1=671 bus2=684 length=0.09144 units=3 r1=0.058 r0=0.1784 x1=0.1206 x0=0.4047 c1=3.4 c0=1.6 enabled=true phases=2
+New Line.lohl684_611 bus1=684 bus2=611 length=0.09144 units=3 r1=0.058 r0=0.058 x1=0.1206 x0=0.1206 c1=3.4 c0=3.4 enabled=true phases=1
+New Line.interruptorprincipal bus1=650 bus2=rg60 length=0.001 units=0 r1=1.0 r0=1.0 x1=1.0 x0=1.0 c1=1.1 c0=1.0 enabled=true phases=3
+New Line.switch bus1=671 bus2=692 length=0.001 units=0 r1=1.0 r0=1.0 x1=1.0 x0=1.0 c1=1.1 c0=1.0 enabled=true phases=3

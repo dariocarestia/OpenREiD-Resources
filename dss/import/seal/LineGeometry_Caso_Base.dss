@@ -1,0 +1,2 @@
+New "LineGeometry.L_3005CharcaniAltoCayma0_Torres" nconds=3 nphases=3 reduce=yes spacing=L_3005CharcaniAltoCayma0_Torres_Spacing wires=(AAAC1201_Lineas, AAAC1201_Lineas, AAAC1201_Lineas) 
+New "LineGeometry.LT138KVSocabaya_ParqueIndustrial0_Torres" nconds=4 nphases=3 reduce=yes spacing=LT138KVSocabaya_ParqueIndustrial0_Torres_Spacing wires=(AAAC240mm21_Lineas, AAAC240mm21_Lineas, AAAC240mm21_Lineas, OPGW70mm21_Lineas) 

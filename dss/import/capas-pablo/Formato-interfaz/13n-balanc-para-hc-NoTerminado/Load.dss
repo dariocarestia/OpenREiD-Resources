@@ -1,0 +1,6 @@
+New Load.carga645 phases=3 bus1=645.1.2.3 kv=13.2 kw=1200.0 pf=0.9 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 daily=ls645 conn=delta
+New Load.carga646 phases=3 bus1=646.1.2.3 kv=13.2 kw=1500.0 pf=0.9 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 daily=ls646 conn=delta
+New Load.carga633 phases=3 bus1=633.1.2.3 kv=13.2 kw=800.0 pf=0.85 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 daily=ls633 conn=delta
+New Load.carga675 phases=3 bus1=675.1.2.3 kv=13.2 kw=900.0 pf=0.85 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 daily=ls675 conn=delta
+New Load.carga611 phases=3 bus1=611.1.2.3 kv=13.2 kw=500.0 pf=0.8 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 daily=ls611 conn=delta
+New Load.carga652 phases=3 bus1=652.1.2.3 kv=13.2 kw=600.0 pf=0.8 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 daily=ls652 conn=delta

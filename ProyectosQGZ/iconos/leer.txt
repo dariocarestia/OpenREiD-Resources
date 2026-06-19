@@ -1,0 +1,6 @@
+Para crear los cursores:
+
+https://www.cursor.cc/
+
+importar la imagen png usada en la barra de herramientas y colocarle la cruz con centro 4,4  y de 7 pix por 7 pix en la esquina 
+sup izq.

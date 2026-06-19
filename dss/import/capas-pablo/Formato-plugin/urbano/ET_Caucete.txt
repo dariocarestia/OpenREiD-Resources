@@ -1,0 +1,1 @@
+New Circuit.Caucete_RedMT  pu=1.037  r1=0  x1=0.001  r0=0  x0=0.001  basekv=13.2 bus1= 100.1.2.3.0

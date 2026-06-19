@@ -1,0 +1,17 @@
+New "WireData.AAAC1201_Lineas" DIAM=14.3 GMRac=5.368 Rdc=0.275 Runits=km GMRunits=mm Radunits=mm normamps=340 
+New "WireData.AL_120" DIAM=14.3 GMRac=5.4 Rdc=0.275 Runits=km GMRunits=mm Radunits=mm normamps=340 
+New "WireData.AL_150" DIAM=15.8 GMRac=6.241 Rdc=0.227 Runits=km GMRunits=mm Radunits=mm normamps=395 
+New "WireData.AL_25" DIAM=6.5 GMRac=2.3595 Rdc=1.31 Runits=km GMRunits=mm Radunits=mm normamps=125 
+New "WireData.AL_35" DIAM=7.6 GMRac=2.7588 Rdc=0.952 Runits=km GMRunits=mm Radunits=mm normamps=160 
+New "WireData.AL_50" DIAM=9.1 GMRac=3.3033 Rdc=0.663 Runits=km GMRunits=mm Radunits=mm normamps=195 
+New "WireData.AL_70" DIAM=10.8 GMRac=4.09 Rdc=0.484 Runits=km GMRunits=mm Radunits=mm normamps=235 
+New "WireData.AL_85" DIAM=11.94 GMRac=4.31 Rdc=0.394 Runits=km GMRunits=mm Radunits=mm normamps=273 
+New "WireData.AL_95" DIAM=12.6 GMRac=4.7754 Rdc=0.352 Runits=km GMRunits=mm Radunits=mm normamps=300 
+New "WireData.CU_120" DIAM=14.1 GMRac=5.3439 Rdc=0.156 Runits=km GMRunits=mm Radunits=mm normamps=495 
+New "WireData.CU_25" DIAM=6.4 GMRac=2.3232 Rdc=0.741 Runits=km GMRunits=mm Radunits=mm normamps=188 
+New "WireData.CU_35" DIAM=7.5 GMRac=2.7225 Rdc=0.524 Runits=km GMRunits=mm Radunits=mm normamps=229 
+New "WireData.CU_50" DIAM=8.9 GMRac=3.3731 Rdc=0.395 Runits=km GMRunits=mm Radunits=mm normamps=277 
+New "WireData.CU_70" DIAM=10.68 GMRac=4.04772 Rdc=0.273 Runits=km GMRunits=mm Radunits=mm normamps=348 
+New "WireData.CU_95" DIAM=12.5 GMRac=4.7375 Rdc=0.197 Runits=km GMRunits=mm Radunits=mm normamps=425 
+New "WireData.OPGW70mm21_Lineas" DIAM=12.4 GMRac=4.8 Rdc=1.03 Runits=km GMRunits=mm Radunits=mm normamps=1000 
+New "WireData.AAAC240mm21_Lineas" DIAM=20.0 GMRac=7.58 Rdc=0.143 Runits=km GMRunits=mm Radunits=mm normamps=563 

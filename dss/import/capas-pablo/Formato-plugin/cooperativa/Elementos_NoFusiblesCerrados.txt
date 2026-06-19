@@ -1,0 +1,7 @@
+New Relay.Cuerno_48 MonitoredObj=LINE.IDLinea718_IDTramos_48 monitoredterm=2 State=Closed
+New Relay.Cuchilla_26 MonitoredObj=LINE.IDLinea177_IDTramos_26 monitoredterm=2 State=Closed
+New Relay.Cuchilla_42 MonitoredObj=LINE.IDLinea713_IDTramos_42 monitoredterm=1 State=Closed
+New Relay.Interruptor_89 MonitoredObj=LINE.IDLinea939_IDTramos_89 monitoredterm=1  State=Closed
+New Relay.Cuchilla_102 MonitoredObj=LINE.IDLinea961_IDTramos_102 monitoredterm=1 State=Closed
+New Relay.Cuchilla_22 MonitoredObj=LINE.IDLinea168_IDTramos_22 monitoredterm=2 State=Closed
+New Relay.Cuchilla_38 MonitoredObj=LINE.IDLinea710_IDTramos_38 monitoredterm=1 State=Closed

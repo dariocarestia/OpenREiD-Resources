@@ -1,0 +1,8 @@
+New Relay.Reconectador_194 MonitoredObj=LINE.IDLinea71_IDTramos_194 monitoredterm=2  State=Closed
+New Relay.Reconectador_508 MonitoredObj=LINE.IDLinea350_IDTramos_508 monitoredterm=1  State=Closed
+New Relay.Reconectador_422 MonitoredObj=LINE.IDLinea313_IDTramos_422 monitoredterm=2  State=Closed
+New Relay.Reconectador_820 MonitoredObj=LINE.IDLinea479_IDTramos_820 monitoredterm=1  State=Closed
+New Relay.Reconectador_823 MonitoredObj=LINE.IDLinea481_IDTramos_823 monitoredterm=2  State=Closed
+New Relay.Reconectador_347 MonitoredObj=LINE.IDLinea275_IDTramos_347 monitoredterm=1  State=Closed
+New Relay.Reconectador_1251 MonitoredObj=LINE.IDLinea852_IDTramos_1251 monitoredterm=1  State=Closed
+New Relay.Reconectador_1060 MonitoredObj=LINE.IDLinea664_IDTramos_1060 monitoredterm=1  State=Closed

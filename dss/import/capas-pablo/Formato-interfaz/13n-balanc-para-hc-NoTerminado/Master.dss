@@ -1,0 +1,23 @@
+Clear
+Set DefaultBaseFrequency=50
+Redirect Vsource.dss
+Redirect LineCode.dss
+Redirect WireData.dss
+Redirect LineSpacing.dss
+Redirect LineGeometry.dss
+Redirect Line.dss
+Redirect XfmrCode.dss
+Redirect Transformer.dss
+Redirect Switch.dss
+Redirect LoadShape.dss
+Redirect TShape.dss
+Redirect XYcurve.dss
+Redirect Load.dss
+Redirect Capacitor.dss
+Redirect PVSystem.dss
+Redirect Generator.dss
+Set voltagebases=(132.0, 13.2)
+Calcvoltagebases
+set mode=0
+solve
+LatLongCoords Buscoords.csv

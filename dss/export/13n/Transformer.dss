@@ -1,0 +1,2 @@
+New Transformer.transformadorsubstation phases=3 wdg=1 bus=substation115kv.1.2.3 kv=115.0 kVA=5000.0 wdg=2 bus=650.1.2.3 kv=4.16 kVA=5000.0 %imag=0 %loadloss=1 %noloadloss=0 XHL=8.0 conns=[delta, wye, ] ppm_antifloat=1
+New Transformer.xfm_1 phases=3 wdg=1 bus=633.1.2.3 kv=4.16 kVA=500.0 wdg=2 bus=634.1.2.3 kv=0.48 kVA=500.0 %imag=0 %loadloss=1.1 %noloadloss=0 XHL=2.0 conns=[wye, wye, ] ppm_antifloat=1

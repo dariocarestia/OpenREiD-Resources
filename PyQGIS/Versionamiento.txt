@@ -1,0 +1,51 @@
+----------------------------------
+create_geometries_4.3 (Ya incluye librería xfrmcode)
+create_logic_10.7 (Ya importa la librería xfrmcode)
+create_logic_10.8 (Ya lista, en la edicion de atributos, en el menú de librerias a los xfrmcode)
+create_logic_10.9 (Ya importa y exporta (o crea) el archivo para la librería xfmrcode en el menú de librerías)
+create_logic_11.0 (Ya realiza la gestion de la librería xfmrcode en el menú de librerías)
+---- En este punto me doy cuenta que la edición de librerías no está funcionando ya que la función de edición es una funcion de la clase CustomMapTool, y no está implementada en CustomToolbarPanel por ende falla.
+create_logic_11.1 (Ya arreglé el error que se produce al seleccionar e intentar editar una librería, además incluye mejoras para soportar variantes en definiciones de lineas y xfmr)
+-------------------------------------
+create_logic_11.2 (Ya clona Trafos)
+create_logic_11.3 (Ya realiza, en la exportación de trafos, si está definido, exporte el xfmrcode)
+create_geometries_4.4 (Ya cambié el simbolo de la Estacion Transformadora)
+--------------------------------------
+create_logic_11.4 (Ya quite todo lo referente a BT y Setas)
+create_geometries_4.5 (Ya quite todo lo referente a BT y Setas)
+create_logic_11.5 (Ya hace zoom automático luego de una importación)
+--------------------------------------
+create_logic_11.6 (Ya muestra en los estilos los niveles de tensión)
+create_geometries_4.6 (Ya muestra en los estilos los niveles de tensión)
+--------------------------------------
+create_logic_11.7 (Ya crea el menú de Cálculo)
+create_logic_11.8 (Ya crear el menú de Visualizar)
+create_logic_11.9 (Ya agrega al menú Calcular las funciones de reset flujo y borrar red)
+create_logic_12.0 (Ya mejora la barra de progreso en los procesos)
+create_logic_12.1 (Ya elimina el atributo enabled de los parámetros de línea)
+create_logic_12.2 (Ya agrupa los parámetros de línea y además los renombra -> aplicar esto a los demás formularios!)
+create_logic_12.3 (Ya resetea el modo de edición cuando se clica derecho y arregla los nombres de atributos en el form de edicion de línea)
+create_logic_12.4 (Ya incluye formulario de edición de la estación transformadora)
+create_logic_12.5 (Para comenzar con el menú Archivo para el manejo de documentos->Truncada)
+create_logic_12.6 (de 12.4 Para integrar en plugin)
+---------------------------------------DENTRO DE GeoREID----------------
+Mas allá de que ya el código va en el plugin, vamos a continuar actualizando el script de creación de capas:
+
+****<COMO MODIFICAR EL TEMPLATE>****
+1) Inicio un proyecto nuevo vacío
+2) Lo guardo en una carpeta cualquiera, con el nombre red.qgz
+3) Ejecuto create_geometries (De esta manera se generan las capas, sin estilos)
+4) Incorporo el mapa
+5) Comprimo en zip el contenido y renombro a template.reid
+****/<COMO MODIFICAR EL TEMPLATE>****
+
+create_geometries_4.7 (Ya ordena los shape de capas eléctricas y librerías en carpetas /RED, /LIBRERIAS respectivamente. El grupo de CÁLCULOS "CALC" y directorio análogo que se usará para incluir capas específicas de resultados, y tambien el grupo "INFO" que se crea para la importación de capas externas, tambien deben alojar sus .shp en directorios correspondientes, pero estos deben crearse en la ejecución de la importación o el cálculo.)
+create_geometries_4.8 (Cambia de emergamps a normamps en wiredata)
+---------------------
+create_geometries_4.9 (Para incorporar CNData y TSData y parámetros relacionados en Linegeometry)
+---------------------
+create_geometries_5.0 (Aparatos de maniobra-> CURRENT_SCHEMA_VERSION = "4")
+---------------------
+create_geometries_5.1 (Para incorporar capa para librería tcccurve -> TCC_Curve.dss -> Continúo en SCHEMA = 4 )
+
+

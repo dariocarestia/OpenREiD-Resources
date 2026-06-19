@@ -1,0 +1,5 @@
+New "LineSpacing.L_3005CharcaniAltoCayma0_Torres_Spacing" nconds=3 nphases=3 x=(-0.9, 0.9, 0.9) h=(6.5, 6.5, 8.0) units=m 
+New "LineSpacing.LT138KVSocabaya_ParqueIndustrial0_Torres_Spacing" nconds=4 nphases=3 x=(2.37, 2.37, 2.37, 0.0) h=(19.26667, 15.21667, 11.16667, 23.66667) units=m 
+New "LineSpacing.10_3" nconds=3 nphases=3 x=(-0.8, 0.0, 0.8) h=(10.0, 10.3, 10) units=m 
+New "LineSpacing.22_9_2" nconds=2 nphases=2 x=(0.0, 0.8) h=(10.5, 10.0) units=m 
+New "LineSpacing.22_9_3" nconds=3 nphases=3 x=(-1.2, 0.0, 1.2) h=(10.0, 10.5, 10) units=m 

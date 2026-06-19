@@ -1,0 +1,2 @@
+New Relay.Cuchilla-Interconectador_34 MonitoredObj=LINE.IDLinea290_IDTramos_34 monitoredterm=2 State=Open
+New Relay.Cuchilla_47 MonitoredObj=LINE.IDLinea716_IDTramos_47 monitoredterm=2 State=Open

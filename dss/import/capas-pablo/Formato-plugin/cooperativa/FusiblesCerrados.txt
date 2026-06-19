@@ -1,0 +1,15 @@
+New Relay.Fusible_11 monitoredobj=LINE.IDLinea173_IDTramos_11 monitoredterm=1  State=Closed 
+New Relay.Fusible_85 monitoredobj=LINE.IDLinea909_IDTramos_85 monitoredterm=1  State=Closed 
+New Relay.Fusible_76 monitoredobj=LINE.IDLinea752_IDTramos_76 monitoredterm=2  State=Closed 
+New Relay.Fusible_52 monitoredobj=LINE.IDLinea721_IDTramos_52 monitoredterm=1  State=Closed 
+New Relay.Fusible_54 monitoredobj=LINE.IDLinea723_IDTramos_54 monitoredterm=2  State=Closed 
+New Relay.Fusible_19 monitoredobj=LINE.IDLinea165_IDTramos_19 monitoredterm=2  State=Closed 
+New Relay.Fusible_46 monitoredobj=LINE.IDLinea715_IDTramos_46 monitoredterm=1  State=Closed 
+New Relay.Fusible_61 monitoredobj=LINE.IDLinea730_IDTramos_61 monitoredterm=1  State=Closed 
+New Relay.Fusible_82 monitoredobj=LINE.IDLinea758_IDTramos_82 monitoredterm=2  State=Closed 
+New Relay.Fusible_65 monitoredobj=LINE.IDLinea742_IDTramos_65 monitoredterm=2  State=Closed 
+New Relay.Fusible_96 monitoredobj=LINE.IDLinea955_IDTramos_96 monitoredterm=2  State=Closed 
+New Relay.Fusible_28 monitoredobj=LINE.IDLinea179_IDTramos_28 monitoredterm=1  State=Closed 
+New Relay.Fusible_70 monitoredobj=LINE.IDLinea747_IDTramos_70 monitoredterm=1  State=Closed 
+New Relay.Fusible_18 monitoredobj=LINE.IDLinea164_IDTramos_18 monitoredterm=2  State=Closed 
+New Relay.Fusible_17 monitoredobj=LINE.IDLinea163_IDTramos_17 monitoredterm=2  State=Closed 

@@ -1,0 +1,13 @@
+New Relay.Cuchilla_95 MonitoredObj=LINE.IDLinea905_IDTramos_95 monitoredterm=1 State=Closed
+New Relay.Cuchilla_90 MonitoredObj=LINE.IDLinea806_IDTramos_90 monitoredterm=2 State=Closed
+New Relay.Cuchilla_101 MonitoredObj=LINE.IDLinea193_IDTramos_101 monitoredterm=2 State=Closed
+New Relay.Cuchilla_23 MonitoredObj=LINE.IDLinea663_IDTramos_23 monitoredterm=1 State=Closed
+New Relay.Cuchilla_81 MonitoredObj=LINE.IDLinea736_IDTramos_81 monitoredterm=2 State=Closed
+New Relay.Cuchilla_102 MonitoredObj=LINE.IDLinea194_IDTramos_102 monitoredterm=1 State=Closed
+New Relay.Cuchilla_30 MonitoredObj=LINE.IDLinea669_IDTramos_30 monitoredterm=1 State=Closed
+New Relay.Cuchilla_104 MonitoredObj=LINE.IDLinea157_IDTramos_104 monitoredterm=2 State=Closed
+New Relay.Cuchilla_61 MonitoredObj=LINE.IDLinea694_IDTramos_61 monitoredterm=1 State=Closed
+New Relay.Cuchilla_83 MonitoredObj=LINE.IDLinea738_IDTramos_83 monitoredterm=2 State=Closed
+New Relay.Seccionalizador_57 MonitoredObj=LINE.IDLinea692_IDTramos_57  monitoredterm=2 State=Closed
+New Relay.Interruptor_98 MonitoredObj=LINE.IDLinea940_IDTramos_98 monitoredterm=1  State=Closed
+New Relay.Cuchilla_84 MonitoredObj=LINE.IDLinea734_IDTramos_84 monitoredterm=2 State=Closed

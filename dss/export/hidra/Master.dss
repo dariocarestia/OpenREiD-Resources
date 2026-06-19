@@ -1,0 +1,13 @@
+Clear
+Set DefaultBaseFrequency=50
+Redirect Vsource.dss
+Redirect Line.dss
+Redirect Transformer.dss
+Redirect Switch.dss
+Redirect LoadShape.dss
+Redirect Load.dss
+Redirect Voltagebases.dss
+Calcvoltagebases
+set mode=Snapshot
+solve
+LatLongCoords Buscoords.csv

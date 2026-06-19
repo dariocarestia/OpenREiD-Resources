@@ -1,0 +1,148 @@
+New Line.Switch_IDTramo_9 bus1=5 bus2=Ab1_5 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt9 SwitchedObj=Line.Switch_IDTramo_9 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_10 bus1=Ab2_5 bus2=5 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt10 SwitchedObj=Line.Switch_IDTramo_10 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_62 bus1=207 bus2=Ab1_207 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt62 SwitchedObj=Line.Switch_IDTramo_62 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_252 bus1=Ab2_207 bus2=207 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt252 SwitchedObj=Line.Switch_IDTramo_252 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_121 bus1=163 bus2=Ab1_163 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt121 SwitchedObj=Line.Switch_IDTramo_121 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_188 bus1=Ab2_163 bus2=163 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt188 SwitchedObj=Line.Switch_IDTramo_188 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_381 bus1=Ab2_344 bus2=344 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt381 SwitchedObj=Line.Switch_IDTramo_381 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1517 bus1=344 bus2=Ab1_344 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1517 SwitchedObj=Line.Switch_IDTramo_1517 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_107 bus1=1058 bus2=Ab1_1058 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt107 SwitchedObj=Line.Switch_IDTramo_107 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_112 bus1=1157 bus2=Ab1_1157 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt112 SwitchedObj=Line.Switch_IDTramo_112 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_140 bus1=125 bus2=Ab1_125 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt140 SwitchedObj=Line.Switch_IDTramo_140 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_165 bus1=141 bus2=Ab1_141 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt165 SwitchedObj=Line.Switch_IDTramo_165 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_171 bus1=1207 bus2=Ab1_1207 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt171 SwitchedObj=Line.Switch_IDTramo_171 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_238 bus1=1198 bus2=Ab1_1198 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt238 SwitchedObj=Line.Switch_IDTramo_238 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_474 bus1=424 bus2=Ab1_424 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt474 SwitchedObj=Line.Switch_IDTramo_474 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_525 bus1=474 bus2=Ab1_474 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt525 SwitchedObj=Line.Switch_IDTramo_525 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_824 bus1=778 bus2=Ab1_778 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt824 SwitchedObj=Line.Switch_IDTramo_824 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_839 bus1=793 bus2=Ab1_793 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt839 SwitchedObj=Line.Switch_IDTramo_839 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_856 bus1=816 bus2=Ab1_816 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt856 SwitchedObj=Line.Switch_IDTramo_856 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_916 bus1=892 bus2=Ab1_892 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt916 SwitchedObj=Line.Switch_IDTramo_916 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_935 bus1=917 bus2=Ab1_917 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt935 SwitchedObj=Line.Switch_IDTramo_935 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_985 bus1=974 bus2=Ab1_974 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt985 SwitchedObj=Line.Switch_IDTramo_985 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1089 bus1=1099 bus2=Ab1_1099 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1089 SwitchedObj=Line.Switch_IDTramo_1089 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1146 bus1=1178 bus2=Ab1_1178 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1146 SwitchedObj=Line.Switch_IDTramo_1146 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1178 bus1=1226 bus2=Ab1_1226 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1178 SwitchedObj=Line.Switch_IDTramo_1178 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1194 bus1=1246 bus2=Ab1_1246 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1194 SwitchedObj=Line.Switch_IDTramo_1194 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1219 bus1=1279 bus2=Ab1_1279 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1219 SwitchedObj=Line.Switch_IDTramo_1219 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1224 bus1=1288 bus2=Ab1_1288 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1224 SwitchedObj=Line.Switch_IDTramo_1224 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1250 bus1=1326 bus2=Ab1_1326 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1250 SwitchedObj=Line.Switch_IDTramo_1250 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1448 bus1=114 bus2=Ab1_114 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1448 SwitchedObj=Line.Switch_IDTramo_1448 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1508 bus1=1303 bus2=Ab1_1303 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1508 SwitchedObj=Line.Switch_IDTramo_1508 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1588 bus1=968 bus2=Ab1_968 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1588 SwitchedObj=Line.Switch_IDTramo_1588 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1594 bus1=1086 bus2=Ab1_1086 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1594 SwitchedObj=Line.Switch_IDTramo_1594 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1598 bus1=356 bus2=Ab1_356 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1598 SwitchedObj=Line.Switch_IDTramo_1598 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1708 bus1=1719 bus2=Ab1_1719 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1708 SwitchedObj=Line.Switch_IDTramo_1708 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1727 bus1=1730 bus2=Ab1_1730 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1727 SwitchedObj=Line.Switch_IDTramo_1727 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1782 bus1=1746 bus2=Ab1_1746 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1782 SwitchedObj=Line.Switch_IDTramo_1782 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_1810 bus1=1574 bus2=Ab1_1574 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1810 SwitchedObj=Line.Switch_IDTramo_1810 SwitchedTerm=1 enabled=y state= open
+New Line.Switch_IDTramo_43 bus1=Ab2_793 bus2=793 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt43 SwitchedObj=Line.Switch_IDTramo_43 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_122 bus1=Ab2_114 bus2=114 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt122 SwitchedObj=Line.Switch_IDTramo_122 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_130 bus1=Ab2_141 bus2=141 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt130 SwitchedObj=Line.Switch_IDTramo_130 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_132 bus1=Ab2_122 bus2=122 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt132 SwitchedObj=Line.Switch_IDTramo_132 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_135 bus1=Ab2_1178 bus2=1178 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt135 SwitchedObj=Line.Switch_IDTramo_135 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_157 bus1=Ab2_1226 bus2=1226 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt157 SwitchedObj=Line.Switch_IDTramo_157 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_195 bus1=Ab2_974 bus2=974 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt195 SwitchedObj=Line.Switch_IDTramo_195 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_208 bus1=Ab2_1246 bus2=1246 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt208 SwitchedObj=Line.Switch_IDTramo_208 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_248 bus1=Ab2_1279 bus2=1279 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt248 SwitchedObj=Line.Switch_IDTramo_248 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_344 bus1=Ab2_1326 bus2=1326 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt344 SwitchedObj=Line.Switch_IDTramo_344 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_397 bus1=Ab2_356 bus2=356 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt397 SwitchedObj=Line.Switch_IDTramo_397 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_466 bus1=Ab2_125 bus2=125 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt466 SwitchedObj=Line.Switch_IDTramo_466 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_473 bus1=Ab2_424 bus2=424 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt473 SwitchedObj=Line.Switch_IDTramo_473 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_524 bus1=Ab2_474 bus2=474 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt524 SwitchedObj=Line.Switch_IDTramo_524 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_828 bus1=Ab2_778 bus2=778 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt828 SwitchedObj=Line.Switch_IDTramo_828 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_854 bus1=Ab2_816 bus2=816 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt854 SwitchedObj=Line.Switch_IDTramo_854 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_934 bus1=Ab2_917 bus2=917 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt934 SwitchedObj=Line.Switch_IDTramo_934 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_980 bus1=Ab2_968 bus2=968 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt980 SwitchedObj=Line.Switch_IDTramo_980 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1056 bus1=Ab2_1058 bus2=1058 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1056 SwitchedObj=Line.Switch_IDTramo_1056 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1078 bus1=Ab2_1086 bus2=1086 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1078 SwitchedObj=Line.Switch_IDTramo_1078 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1088 bus1=Ab2_1099 bus2=1099 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1088 SwitchedObj=Line.Switch_IDTramo_1088 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1124 bus1=Ab2_1148 bus2=1148 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1124 SwitchedObj=Line.Switch_IDTramo_1124 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1131 bus1=Ab2_1157 bus2=1157 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1131 SwitchedObj=Line.Switch_IDTramo_1131 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1158 bus1=Ab2_1198 bus2=1198 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1158 SwitchedObj=Line.Switch_IDTramo_1158 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1164 bus1=Ab2_1207 bus2=1207 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1164 SwitchedObj=Line.Switch_IDTramo_1164 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1236 bus1=Ab2_1302 bus2=1302 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1236 SwitchedObj=Line.Switch_IDTramo_1236 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1540 bus1=Ab2_892 bus2=892 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1540 SwitchedObj=Line.Switch_IDTramo_1540 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1542 bus1=Ab2_1574 bus2=1574 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1542 SwitchedObj=Line.Switch_IDTramo_1542 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1702 bus1=Ab2_1288 bus2=1288 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1702 SwitchedObj=Line.Switch_IDTramo_1702 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1707 bus1=Ab2_1719 bus2=1719 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1707 SwitchedObj=Line.Switch_IDTramo_1707 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1726 bus1=Ab2_1730 bus2=1730 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1726 SwitchedObj=Line.Switch_IDTramo_1726 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1746 bus1=Ab2_1746 bus2=1746 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt1746 SwitchedObj=Line.Switch_IDTramo_1746 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1237_S1 bus1=1302 bus2=Ab1_1302 length=1 units=m switch=y enabled=True phases=3
+New Line.Switch_IDTramo_1237_S2 bus1=Ab2_1303 bus2=1303 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt12371 SwitchedObj= Line.Switch_IDTramo_1237_S1 SwitchedTerm=1 enabled=y state= open
+New Swtcontrol.swt12372 SwitchedObj=Line.Switch_IDTramo_1237_S2 SwitchedTerm=2 enabled=y state=open
+New Line.Switch_IDTramo_1597_S1 bus1=122 bus2=Ab1_122 length=1 units=m switch=y enabled=True phases=3
+New Line.Switch_IDTramo_1597_S2 bus1=Ab2_1148 bus2=1148 length=1 units=m switch=y enabled=True phases=3
+New Swtcontrol.swt15971 SwitchedObj= Line.Switch_IDTramo_1597_S1 SwitchedTerm=1 enabled=y state= open
+New Swtcontrol.swt15972 SwitchedObj=Line.Switch_IDTramo_1597_S2 SwitchedTerm=2 enabled=y state=open

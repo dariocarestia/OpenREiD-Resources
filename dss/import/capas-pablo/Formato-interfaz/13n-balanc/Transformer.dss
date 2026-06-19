@@ -1,0 +1,1 @@
+New Transformer.trafose1 phases=3 wdg=1 bus=rg60.1.2.3 kv=132.0 kVA=10000.0 wdg=2 bus=650.1.2.3 kv=13.2 kVA=10000.0 %imag=0 %loadloss=0.4 %noloadloss=0 XHL=5.0 conns=[delta, wye, ] ppm_antifloat=1

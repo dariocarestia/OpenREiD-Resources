@@ -1,0 +1,7 @@
+New WireData.conductor_s16 Rdc=2.09 Runits=km diam=5.1 Radunits=mm normamps=100
+New WireData.conductor_s25 Rdc=1.31 Runits=km diam=6.5 Radunits=mm normamps=125
+New WireData.conductor_s35 Rdc=0.952 Runits=km diam=7.6 Radunits=mm normamps=160
+New WireData.conductor_s50 Rdc=0.663 Runits=km diam=9.1 Radunits=mm normamps=195
+New WireData.conductor_s70 Rdc=0.484 Runits=km diam=10.7 Radunits=mm normamps=235
+New WireData.conductor_s95 Rdc=0.352 Runits=km diam=12.6 Radunits=mm normamps=300
+New WireData.conductor_s120 Rdc=0.275 Runits=km diam=14.3 Radunits=mm normamps=340

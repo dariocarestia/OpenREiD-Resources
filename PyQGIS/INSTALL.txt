@@ -1,0 +1,26 @@
+===Instrucciones de instalación de GeoREID===
+
+1-Instalar PostgreSQL (Version recomendada 17) desde https://www.postgresql.org/download/ (asignar la contraseña para el superusuario:postgres Contraseña:picena)
+2-Durante la instalación o luego, instalar el complemento PostGIS usando StackBuilder o manualmente. (Spatial Extensions->PostGIS 3.5...)
+3-Instalar QGIS (Versión recomendada 3.4) desde https://qgis.org.
+4-Crear una base de datos en PostgreSQL con el nombre `georeid`. (desde pgAdmin, clic derecho en Databases->Create->Database)
+    Asegurarse de habilitar la extensión PostGIS en esta base. (Clic derecho en Extensions->Create->Name:postgis->Save)
+5-Restaurar el archivo de backup provisto (`georeid.backup`) sobre la base de datos `georeid`. Desde pgAdmin (clic derecho->Restaurar->Seleccionar georeid.backup).
+6-Copiar la carpeta `OpenDSS` (provista) a `C:\Program Files\OpenDSS`.
+7-Abrir una consola (CMD) como Administrador y ejecutar el siguiente comando para registrar la librería de OpenDSS:
+regsvr32 "C:\Program Files\OpenDSS\OpenDSSEngine.DLL"
+Si todo fue correcto, aparecerá un mensaje confirmando que la DLL fue registrada.
+8-Abrir QGIS 3.4, cargar el proyecto `desdebd.qgz` con las credenciales del usuario root: usuario:postgres, pass:picena
+9-Para crear la barra de herramientas de GeoREID, del menú de QGIS: Complementos->Consola de python->Mostrar editor->Abrir Script->create_logic_7.7.py->Play
+10-Para importar la red de Caucete: Botón:Importar desde DSS->(seleccionar la red: GeoREID\dss\import\completo\Master.ss)
+
+
+===Funciones utiles: ====
+
+clear_all_layers()  #Borra todos los elementos
+reset_power_flow()  #Borra el calculo de flujo de potencia
+
+=== Creación de un proyecto desde cero e importación de capas desde postgresql ===
+Proyecto->Nuevo->Grardar como
+
+

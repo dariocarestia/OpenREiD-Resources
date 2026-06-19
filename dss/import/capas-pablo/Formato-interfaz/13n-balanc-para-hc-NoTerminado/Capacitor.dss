@@ -1,0 +1,2 @@
+New Capacitor.cap1 bus1=675.1.2.3 kv=13.2 kvar=250.0 phases=3
+New Capacitor.cap2 bus1=611.1.2.3 kv=13.2 kvar=250.0 phases=3

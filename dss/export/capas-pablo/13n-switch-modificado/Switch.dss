@@ -1,0 +1,2 @@
+New Relay.interruptorprincipal MonitoredObj=Line.interruptorprincipal MonitoredTerm=1 State=closed
+New Relay.switch MonitoredObj=Line.switch MonitoredTerm=1 State=closed

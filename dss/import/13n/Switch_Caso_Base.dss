@@ -1,0 +1,2 @@
+New "Line.InterruptorPrincipal" phases=3 bus1=650.1.2.3 bus2=RG60.1.2.3 length=0.001 r1=0.0001 x1=0 r0=0.0001 x0=0 C1=0 C0=0 Switch=y 
+New "Line.Switch" phases=3 bus1=671.1.2.3.4 bus2=692.1.2.3.4 length=0.001 r1=0.0001 x1=0 r0=0.0001 x0=0 C1=0 C0=0 Switch=y 

@@ -1,0 +1,7 @@
+New Recloser.Reconectador_1478 monitoredobj=LINE.IDLinea921_IDTramos_1478 monitoredterm=1 switchedobj=LINE.IDLinea921_IDTramos_1478 switchedterm=1 
+New Recloser.Reconectador_1226 monitoredobj=LINE.IDLinea810_IDTramos_1226 monitoredterm=1 switchedobj=LINE.IDLinea810_IDTramos_1226 switchedterm=1 
+New Recloser.Reconectador_423 monitoredobj=LINE.IDLinea314_IDTramos_423 monitoredterm=1 switchedobj=LINE.IDLinea314_IDTramos_423 switchedterm=1 
+New Recloser.Reconectador_1606 monitoredobj=LINE.IDLinea951_IDTramos_1606 monitoredterm=1 switchedobj=LINE.IDLinea951_IDTramos_1606 switchedterm=1 
+New Recloser.Reconectador_825 monitoredobj=LINE.IDLinea483_IDTramos_825 monitoredterm=1 switchedobj=LINE.IDLinea483_IDTramos_825 switchedterm=1 
+New Recloser.Reconectador_1566 monitoredobj=LINE.IDLinea865_IDTramos_1566 monitoredterm=1 switchedobj=LINE.IDLinea865_IDTramos_1566 switchedterm=1 
+New Recloser.Reconectador_1252 monitoredobj=LINE.IDLinea853_IDTramos_1252 monitoredterm=1 switchedobj=LINE.IDLinea853_IDTramos_1252 switchedterm=1 

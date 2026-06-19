@@ -1,0 +1,14 @@
+New Relay.Cuchilla-Interconectador_397 MonitoredObj=LINE.IDLinea290_IDTramos_397 monitoredterm=2 State=Open
+New Relay.Cuerno_1746 MonitoredObj=LINE.IDLinea1026_IDTramos_1746 monitoredterm=2 State=Open
+New Relay.Cuchilla-Interconectador_934 MonitoredObj=LINE.IDLinea565_IDTramos_934 monitoredterm=2 State=Open
+New Relay.Cuchilla_62 MonitoredObj=LINE.IDLinea107_IDTramos_62 monitoredterm=1 State=Open
+New Relay.Cuchilla_140 MonitoredObj=LINE.IDLinea185_IDTramos_140 monitoredterm=1 State=Open
+New Relay.Cuchilla_121 MonitoredObj=LINE.IDLinea144_IDTramos_121 monitoredterm=1 State=Open
+New Relay.Cuchilla_248 MonitoredObj=LINE.IDLinea247_IDTramos_248 monitoredterm=2 State=Open
+New Relay.Cuchilla_157 MonitoredObj=LINE.IDLinea201_IDTramos_157 monitoredterm=2 State=Open
+New Relay.Cuchilla_132 MonitoredObj=LINE.IDLinea154_IDTramos_132 monitoredterm=2 State=Open
+New Relay.Cuchilla_1224 MonitoredObj=LINE.IDLinea809_IDTramos_1224 monitoredterm=1 State=Open
+New Relay.Cuchilla_1079 MonitoredObj=LINE.IDLinea678_IDTramos_1079 monitoredterm=2 State=Open
+New Relay.Cuchilla_1124 MonitoredObj=LINE.IDLinea716_IDTramos_1124 monitoredterm=2 State=Open
+New Relay.Cuchilla_107 MonitoredObj=LINE.IDLinea133_IDTramos_107 monitoredterm=1 State=Open
+New Relay.Cuchilla_824 MonitoredObj=LINE.IDLinea482_IDTramos_824 monitoredterm=1 State=Open

@@ -1,0 +1,23 @@
+Clear
+
+New Circuit.caso1_Med2024_30
+
+Redirect Vsource_caso1_Med2024_30.dss
+Redirect WireData_caso1_Med2024_30.dss
+Redirect LineCode_caso1_Med2024_30.dss
+Redirect XfmrCode_caso1_Med2024_30.dss
+Redirect LoadShape_caso1_Med2024_30.dss
+Redirect TShape_caso1_Med2024_30.dss
+Redirect XYcurve_caso1_Med2024_30.dss
+Redirect Transformer_caso1_Med2024_30.dss
+Redirect Line_caso1_Med2024_30.dss
+Redirect Switch_caso1_Med2024_30.dss
+Redirect Capacitor_caso1_Med2024_30.dss
+Redirect Load_caso1_Med2024_30.dss
+Redirect Generator_caso1_Med2024_30.dss
+Redirect PVSystem_caso1_Med2024_30.dss
+Redirect Voltagebases_caso1_Med2024_30.dss
+
+LatLongCoords Buscoords_caso1_Med2024_30.csv
+
+solve

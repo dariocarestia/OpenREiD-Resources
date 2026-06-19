@@ -1,0 +1,10 @@
+New Line.substationrg60 bus1=substation.1.2.3 bus2=rg60.1.2.3 length=75.21 units=m phases=3 linecode=alac95
+New Line.650632 bus1=650.1.2.3 bus2=632.1.2.3 length=56.78 units=m phases=3 linecode=alac95
+New Line.632633 bus1=632.1.2.3 bus2=633.1.2.3 length=144.89 units=m phases=3 linecode=alac50
+New Line.632645 bus1=632.1.2.3 bus2=645.1.2.3 length=112.67 units=m phases=3 linecode=alac50
+New Line.645646 bus1=645.1.2.3 bus2=646.1.2.3 length=97.95 units=m phases=3 linecode=alac50
+New Line.632671 bus1=632.1.2.3 bus2=671.1.2.3 length=166.44 units=m phases=3 linecode=alac95
+New Line.671675 bus1=671.1.2.3 bus2=675.1.2.3 length=248.42 units=m phases=3 linecode=alac50
+New Line.671684 bus1=671.1.2.3 bus2=684.1.2.3 length=154.02 units=m phases=3 linecode=alac70
+New Line.684611 bus1=684.1.2.3 bus2=611.1.2.3 length=124.3 units=m phases=3 linecode=alac25
+New Line.684652 bus1=684.1.2.3 bus2=652.1.2.3 length=111.29 units=m phases=3 linecode=alac25

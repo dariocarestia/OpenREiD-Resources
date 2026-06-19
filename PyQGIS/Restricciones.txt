@@ -1,0 +1,60 @@
+Especificaciones de Lógica  de edición:
+
+Conexiónes en Baja tensión:
+La idea es implementar una función que analice la conectividad de media y de baja tensión y establezca propiedades 
+a los elementos (Nodos, lineas, cargas?, interruptores?) para identificarlos como de media o baja tensión.
+
+Modelado de Componentes[Tipos]:
+-ET(HV/MT)-> Default Circuit <-> Vsource ->  No incorpora el transformador ya que si se quiere modelar con el trafo, debe agregarse a la salida del sourcebus, esto es, para dar la posibilidad de modelar la subestación sin el trafo, o sea a una tensión de MT
+-Nodos[MT, BT]:<-> Bus
+-Lineas[MT, BT]:<-> Line
+-Interruptores-> Elementos_mp[I, F, R, S, C]:<-> Relay
+-Cargas[MT, BT]:<-> Load
+-Transformadores:
+-Generadores[]:
+-Setas:
+
+Modelado de Opciones (Settings):
+Set DefaultBaseFrequency=50 ->? (dssSolution.Frequency)
+Set voltagebases=[13.2, 33, 0.380] ->? (Settings.VoltageBases)
+set mode=Snapshot ->? (dssSolution.Mode) (0-Snapshot,1-Daily,...)
+
+
+CONSULTAR:
+Orden de ingreso:
+ETs(1 o varias?)-> La inserción de una ET no tiene restricción, ya que crea el nodo y lo asocia de forma automática.
+Nodos_MT->Lineas_MT->Interruptores_MT
+Nodos_MT->Cargas_MT
+Nodos_MT->Generadores_MT
+Nodos_MT->Transformadores_MT
+
+
+
+
+Restricciones de ingreso:
+
+1) Por cada ET
+    -1 solo Nodo_MT (Se crea de forma automática)
+
+2) Por cada Nodo_MT
+    -1 solo elemento de cada tipo (Generador, Carga, Seta, Transformador)
+    El nodo es asignado al elemento en la inserción del elemento
+    Al intentar asignar un segundo elemento del mismo tipo debe dar aviso.
+    -Varias Líneas_MT
+
+3) Por cada Línea_MT
+     -Varios Interruptores_MT
+
+4) Por cada Seta
+     - 1 solo Nodo_MT para Wdg1 (Se asigna al insertar la seta)
+     - 1 solo Nodo_BT para Wdg2 (Se crea de forma automática)
+
+
+
+-Lineas: 1 sola línea entre los 2 mismos nodos
+-Interruptores: hasta 2 interruprores por línea, uno por lado.
+-Cargas: 1 sola carga por cada nodo. 
+-Generadores: 1 solo generador por cada nodo.
+-Transformadores
+
+

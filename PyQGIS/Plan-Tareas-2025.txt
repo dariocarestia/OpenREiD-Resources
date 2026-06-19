@@ -1,0 +1,55 @@
+
+Tiket:001 (OK)
+Completar operaciones de edición (operaciones gráficas que alteran atributos)
+    *abrir/cerrar interruptores: OK
+    *mover nodos -> Estira líneas -> recalcula longitudes: OK
+    *Completar/Implementar restricciones de ingreso de componentes...
+
+Tiket:002 
+Desarrollo del sistema de Documentos/Casos de Estudio/Multiusuarios (POSTGRE).
+(flujo de trabajo de Abrir, guardar, guardar como)
+
+Tiket:003 (OK)
+Implementar librerías de componentes y Settings:
+(Incluir capas de parámetros (no gráficas), que modelan librerias, para los siguientes elementos:
+    *Line: Line_Code: OK, Line_Geometry: OK, Line_Spacing: OK, Wire_Data (OK)
+    *Load: Load_Shape: OK
+    *PVSystem: T_Shape, Load_Shape, XY_Curve
+    *Transformadores: Xfrm_Code)
+
+Tiket:004 (OK)
+Completar los formularios de atributos para todos los elementos.
+Line: OK
+Load: OK
+PVSystem:
+Transformer:
+Capacitor:
+
+
+Tiket:005
+Desarrollo del paquete de instalación (Plugin de QGIS)
+
+Tiket:006
+Incluir información trifásica a todo el modelo.
+    *Definir procedimiento de conexionado
+    *Agregar atributo de fases
+    *Implementar en la Exportacion e Importación a Opendss
+
+Tiket:007
+Estandarizar e implementar el procedimiento de modelado de cargas -> BT/MT. AMI?
+
+Tiket:008 (OK Calculo por horas)
+Ampliar las opciones del cálculo de flujo de potencia e implementar otros cálculos.
+
+Tiket:009
+Confiabilidad?
+
+Tiket:010
+Mejorar el modelado de los aparatos de maniobra
+
+Tiket:011
+Incorporar y/o Separar atributos eléctricos de los atributos de información para la empresa.
+
+
+
+

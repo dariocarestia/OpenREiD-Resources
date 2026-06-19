@@ -1,0 +1,2 @@
+Se bypasearon los switch (Is.. y CB..) que estaban modelados como líneas de baja longitud
+y que tenian nodos sin coordenadas lo cual generaba problemas de importación.

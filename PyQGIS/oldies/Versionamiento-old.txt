@@ -1,0 +1,177 @@
+1-crear-geometrias-asociadas-shape.py
+Nota: Ultima modific fue cambiar los campos id de int a str
+---------------
+CrearBarraHerrCursorEstadosEventosIntegrada-7.py
+CrearBarraHerrCursorEstadosEventosIntegrada-8.py
+Nota: Funcionan ambos, el 8 surgió para salvar el problema del acceso al campo id, pero luego descubrí que fué por haberlo creado como entero y lo cambié a string, con lo cual la version 7 tambien funciona.
+---------------
+CrearBarraHerrCursorEstadosEventosIntegrada-9.py
+Nota: es copia de la 7, para seguir trabajando desde una versión más simple
+----------------
+create_geometries_1.py -> copia de 1-crear-geometrias-asociadas-shape.py
+create_logic_2.py -> copia de CrearBarraHerrCursorEstadosEventosIntegrada-8.py ya que la 9 daba error
+-----------------
+create_logic_2H -> ya logra marcar nodos de amarillo, la versiòn I y J quedaron truncadas.
+-------------------
+Nueva nomenclatura: VX.Y (X: version estable, Y: Betas), comienzo con:
+
+create_geometries_2.0 (copia de create_geometries_1.py)
+create_logic_3.0 (copia de create_logic_2H)
+---------------------
+create_logic_3.4: ya funciona la línea temporal, con estilo de puntos.
+create_logic_3.5> Estable, crea linea auxiliar de puntos y ordené un poco el código.
+create_geometries_2.2 (agrego capa generadores y agrego estilos, agrego estilos para lineas y nodos)
+create_logic_3.6 (logica para generadores)
+create_logic_3.7 (movimiento de nodos)
+create_logic_3.8 (movimiento de objetos asociados)
+create_logic_3.9 (optimizar el movimiento)
+create_logic_4.0 (para agregar cargas)
+create_geometries_2.3 (para agregar cargas)
+create_geometries_2.4 (para agregar Interruptores)
+create_logic_4.X (para agregar Interruptores)
+create_logic_4.1 (ya selecciona líneas cercanas)
+create_logic_4.3 (selecciona líneas y nodo cercano)
+create_logic_4.4 (Ya agrega los interruptores)
+create_logic_4.5 (Ya mueve los interruptores)
+create_geometries_2.5 (ya da un zoom máximo a la visualización de switches)
+create_geometries_2.6 (Para agregar transformadores)
+create_logic_4.6 (Para agregar transformadores)
+---------------------
+create_logic_4.7 (Para agregar ET)
+La idea es dexplazar la subestación del nodo y pintarla de amarillo, al igual que el nodo indicando que ambos son soleccionables.
+create_geometries_2.7 (Para agregar ET)
+create_logic_4.8 (Agrego tooltips)
+create_logic_4.9 (Ya trabaja con lineas y nodos MT y BT)
+create_geometries_2.8 (Ya trabaja con lineas y nodos MT y BT)
+create_logic_5.0 (Ya mueve las setas, trafos y ets, además mejora el movimiento de nodos)
+create_geometries_2.9 (pruebas MT y BT)
+create_logic_5.1 (Ya mueve nodos de BT y MT asociados a setas, que a su vez contiene asociaciones en MT y BT) 
+create_logic_5.2 (Para pruebas con opendss)
+create_geometries_3.0 (Para pruebas con opendss) (funciono)
+create_geometries_3.1 (Para pruebas con opendss - Version con clases - al final se volvió a lo anterior) (funciono)
+create_logic_5.3 (para seleccion de diferentes src) (No anduvo - Hay problemas con las conversiones si no es wgs84)
+-----------------------
+La idea es continuar siempre en wgs84 ya que de otra forma pueden ocacionar 
+problemas las funciones gráficas.
+create_logic_5.4 (para seguir importando elementos de decsa desde opendss)(truncada)
+create_logic_5.5 (ya incorpora progressbar e importacion de nodos y lineas)
+create_logic_5.6 (Explorar dss file)
+create_logic_5.7 (Incorpora el elemento transformador y el movimiento de todos los elementos asociados)
+create_logic_5.8 (ya agrega cargas despues de trafos)
+create_logic_5.9 (Importa nodos y lineas, pero habiendo relevado las coordenadas de los nodos faltantes)
+create_logic_6.0 (Ya importa trafos)
+create_logic_6.1 (Ya importa cargas y trafos correctamente)
+create_logic_6.2 (Ya importa interruptores)
+create_logic_6.3 (Ya importa Vsources)
+create_logic_6.4 (Ya importa parámetros)
+create_geometries_3.2 (Ya importa parámetros y exporta)
+create_logic_6.5 (Ya exporta todo hacia Opendss)
+create_logic_6.6 (Ya exporta Buscoords.csv)
+create_logic_6.7 (Para agregar una función que limpie las capas a cero)
+create_logic_6.8 (ya incorpora formularios de propiedades a lineas y nodos)
+create_logic_6.9 (Para continuar con los formularios de propiedades)
+create_logic_7.0 (Ya agrega capacitores a las capas y a la barra de herramientas)
+create_geometries_3.3 (Ya agrega capacitores a las capas y a la barra de herramientas)
+create_geometries_3.4 (Ya incorpora pvsystems y completa parametros de generadores a las capas)
+create_logic_7.1 (ya incorpora pvsystems a las capas)
+create_logic_7.2 (ya importa de opendss parametros a capacitores, pvsystems y generadores)
+create_logic_7.3 (Ya exporta hacia opendss capacitores, pvsystems y generadores)
+create_logic_7.4 (Ya recodifica elementos en la inportacion)
+create_geometries_3.5 (Para hacer pruebas de recodificar elementos en la inportacion->No tuvo cambios)
+------------------------------ 
+Proximos pasos serían, ya que el master.dss lo está generando de forma fija con los archivos de "libreria" 
+LoadShape.dss, XfmrCode.dss, TShape.dss, XYcurve.dss, se debería accesar esos objetos desde la api de opendss y 
+generarlos e incluirlos según existan.
+------------------------------
+create_logic_7.5 (Ya reduce nodos)(heredada de 7.3 ya que no recodifica al importar)(Para pruebas de reducción de nodos)
+create_logic_7.6 (Para realimentar resultados de flujo)
+create_geometries_3.6 (Para realimentar resultados de flujo)
+create_logic_7.6 (Ya cambia el estado de interruptores con un clic)
+---------------------------------
+Nota sobre los estilos de capas:
+El proyecto qgz guarda la información de estilos de forma incrustada, sin embargo los simbolos pueden estar, si se realizan mediante 
+un marcador svg, incrustados o vinculados (en este caso si el archivo no está bien ubicado no lo encuentra)
+-----------------------------------
+create_logic_7.7 (Ya incorpora interruptores con estado por defecto "closed")
+create_logic_7.8 (Ya corrige flujos de potencia, incorpora dirección del flujo y permite trabajar con pvsystems)
+-----------------------------------
+create_logic_7.9 (Ya importa librerias linegeometry, linespacing y wiredata)
+
+La idea con librerias, y tambien con parámetros de elementos implementados y no implementados es la siguiente:
+En la Importación Dss, se debe importar y almacenar en atributos de capas, unicamente los parámetros que la Interfaz utiliza tambien en la creación
+de la red desde cero. Esto va a limitar la compatibilidad con otras formas de modelamiento en dss. La idea luego es quizas, en la bifurcacion
+de las aplicaciones (GeoREID como interfaz para DSS) cambiar la implementación para mantener los parámetros en el objeto dss, sin hacer copia 
+de los parámetros de elementos, solo mantener en capas los parámetros topológicos y consultar a pedido los demás para operaciones de edición.
+
+Para el caso de Lines: Para permitir la convivencia de 2 formas de modelación, por impedancias (Line+LineCode) y por geometrías (Line+LineGeometry+LineSpacing+WireData)
+la idea es, en la importación importar todas las librerias, y, al momento de editar los parámetros, mostrar en combos las existentes.
+
+Para el caso de parámetros variables con las librerías (xej Line, que, en caso de estar modelado por impedancias guardadas en LineCode, no registra valores en r1, r0, etc)
+en ese caso, en el procedimiento de exportación (o exportación para el cálculo) se debe consultar la nulidad del parámetro para no colocarlo.
+
+------------------------------------
+create_logic_8.0 (Ya factoricé el codigo en funciones para la importación de librerias linegeometry, linespacing y wiredata)
+create_logic_8.1 (Ya importa y exporta libreria linecode, linegeometry, linespacing y wiredata, conjuntamente con la exportación para el cálculo)
+create_geometries_3.7 (Ya crea librerias linecode, linegeometry, linespacing y wiredata)
+create_logic_8.2 (Ya incorpora en el formulario de atributos de linea, los combos de selección de linecode y linegeometry, además recalcula las longitudes en lineas que se mueven y lineas nuevas)
+create_logic_8.3 (Ya incorpora libreria LoadShape)
+create_geometries_3.8 (Ya incorpora la libreria LoadShape)
+-----------------------------------
+Luego intentar simplificar los argumentos a funciones que transmiten punteros a las capas por un acceso dentro de la función de este tipo: linecode_layers = QgsProject.instance().mapLayersByName("linecode")
+Arreglar los formularios de edición de parámetros de líneas y de nodos: se llaman a funciones distintas que a su vez luego llaman a una misma función: conviene tener funciones separadas para la construccion de formularios especializados. 
+-----------------------------------
+create_logic_8.4 (Ya incorpora formulario personalizado de edición de cargas y selector de objetos)
+create_logic_8.5 (Ya incorpora el menu contextual para eliminar objetos)
+create_logic_8.6 (Ya incorpora la lectura de Settings)
+create_geometries_3.9 (Ya incorpora la lectura de Settings, y Toma los estilos de capas desde archivos)
+----------------------------------
+create_logic_8.7 (Ya importa T_Shape y XY_Curve)
+create_geometries_4.0 (Para incorporar capas T_Shape y XY_Curve)
+----------------------------------
+La idea con librerias (o elementos eléctricos generales) que a su vez, incorporen referencias a archivos .csv. En el momento de la importación, se deben incrustar esos datos dentro del parámetro para tal fin, de manera de solo concervar la librería en la capa no gráfica, sin necesidad de transportar los archivos -csv.
+---------------------------------
+create_logic_8.8 (Ya agrega formulario de atributos de sistemas fotovoltaicos)
+create_logic_8.9 (Ya exporta hacia los archivos T_Shape.dss y XY_Curve.dss desde las capas, y revisar los atributos exportados en PVSystem.dss)
+create_logic_9.0 (Ya incorpora boton de librerias, para importar)
+create_logic_9.1 (Ya agrega boton de librerias, para exportar y crear)
+create_logic_9.2 (Ya, la opcion de settings, solo edite el primer registro)
+create_logic_9.3 (ya realice refactorizacion de funcion export_dss y normalizacion de parametros en minúsculas)
+create_logic_9.4 (Ya incorpora la funcion de importación de loadshapes desde archivo)
+create_logic_9.5 (Ya lista y edita librerias)
+create_logic_9.6 (Ya incorporar la logica de edición de transformadores)
+create_logic_9.7 (Ya incorporar la logica de edición de capacitores)
+create_logic_9.8 (Para incorporar la logica de edición de elementos para generadores)(Se arreglaron perdidas de codigo de funciones de las 2 versiones anteriores)
+create_logic_9.9 (Ya incorporar la logica de edición de generadores incluido el listado de curvas de carga)
+create_logic_10.0 (auto seleccion del boton de seleccion luego del calculo de flujo)
+----------------------------------
+create_geometries_4.1 (Ya incorpora capas T_Shape y XY_Curve, y mejoras para compatibilidad con create_logic_9.9)
+create_logic_10.1 (Ya incorpora la logica de edición de elementos para interruptores)
+create_logic_10.2 (Ya clona lineas--parcial)
+create_logic_10.3 (Ya clona lineas)
+create_logic_10.4 (Ya clona cargas)
+create_logic_10.5 (Ya clona sistemas fotovoltaicos, capacitores, y generadores)
+---------------------------------
+create_logic_10.6 (Ya trabaja con fases)
+create_geometries_4.2 (Ya trabaja con fases)
+----------------------------------
+create_geometries_4.3 (Ya incluye librería xfrmcode)
+create_logic_10.7 (Ya importa la librería xfrmcode)
+create_logic_10.8 (Ya lista, en la edicion de atributos, en el menú de librerias a los xfrmcode)
+create_logic_10.9 (Ya importa y exporta (o crea) el archivo para la librería xfmrcode en el menú de librerías)
+create_logic_11.0 (Ya realiza la gestion de la librería xfmrcode en el menú de librerías)
+---- En este punto me doy cuenta que la edición de librerías no está funcionando ya que la función de edición es una funcion de la clase CustomMapTool, y no está implementada en CustomToolbarPanel por ende falla.
+create_logic_11.1 (Ya arreglé el error que se produce al seleccionar e intentar editar una librería, además incluye mejoras para soportar variantes en definiciones de lineas y xfmr)
+-------------------------------------
+create_logic_11.2 (Ya clona Trafos)
+create_logic_11.3 (Ya realiza, en la exportación de trafos, si está definido, exporte el xfmrcode)
+create_geometries_4.4 (Ya cambié el simbolo de la Estacion Transformadora)
+--------------------------------------
+create_logic_11.4 (Ya quite todo lo referente a BT y Setas)
+create_geometries_4.5 (Ya quite todo lo referente a BT y Setas)
+create_logic_11.5 (Ya hace zoom automático luego de una importación)
+--------------------------------------
+create_logic_11.6 (Ya muestra en los estilos los niveles de tensión)
+create_geometries_4.6 (Ya muestra en los estilos los niveles de tensión)
+--------------------------------------
+create_logic_11.7 (Para crear los menús de Cálculo y Visualizar)
+

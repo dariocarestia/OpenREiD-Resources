@@ -1,0 +1,12 @@
+New Line.lc684_652a bus1=684.1 bus2=652.1 length=103.47 Geometry=lineconfig605 units=m phases=1
+New Line.lc692_675 bus1=692.1.2.3 bus2=675.1.2.3 length=125.34 Geometry=lineconfig602 units=m phases=3
+New Line.lohl632_633 bus1=632.1.2.3.4 bus2=633.1.2.3.4 length=165.35 Geometry=lineconfig602 units=m phases=3
+New Line.lohl632_645 bus1=632.3.2.4 bus2=645.3.2.4 length=58.69 Geometry=lineconfig603_604 units=m phases=2
+New Line.lohl632_671 bus1=632.1.2.3.4 bus2=671.1.2.3.4 length=151.4 Geometry=lineconfig601 units=m phases=3
+New Line.lohl645_646 bus1=645.3.2.4 bus2=646.3.2.4 length=114.75 Geometry=lineconfig603_604 units=m phases=2
+New Line.lohl650_632 bus1=rg60.1.2.3.4 bus2=632.1.2.3.4 length=73.33 Geometry=lineconfig601 units=m phases=3
+New Line.lohl671_680 bus1=671.1.2.3.4 bus2=680.1.2.3.4 length=71.29 Geometry=lineconfig601 units=m phases=3
+New Line.lohl671_684 bus1=671.1.3.4 bus2=684.1.3.4 length=154.16 Geometry=lineconfig603_604 units=m phases=2
+New Line.lohl684_611 bus1=684.3.4 bus2=611.3.4 length=126.96 Geometry=lineconfig605 units=m phases=1
+New Line.interruptorprincipal bus1=650.1.2.3 bus2=rg60.1.2.3 length=68.25 Geometry=lineconfig601 units=m phases=3
+New Line.switch bus1=671.1.2.3.4 bus2=692.1.2.3.4 length=130.84 Geometry=lineconfig602 units=m phases=3

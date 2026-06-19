@@ -1,0 +1,1 @@
+custom_toolbar_panel.toolbox.setVisible(False)  # Oculta la caja de herramientas

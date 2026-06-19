@@ -1,0 +1,15 @@
+New Load.l611_yci_ph.3 phases=1 bus1=611.3 kv=2.402 kw=170.0 pf=0.9048187022009941 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=wye
+New Load.l634_ycpq_ph.1 phases=1 bus1=634.1 kv=0.277 kw=160.0 pf=0.8240419241993675 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=wye
+New Load.l634_ycpq_ph.2 phases=1 bus1=634.2 kv=0.277 kw=120.0 pf=0.8 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=wye
+New Load.l634_ycpq_ph.3 phases=1 bus1=634.3 kv=0.277 kw=120.0 pf=0.8 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=wye
+New Load.l645_ycpq_ph.2 phases=1 bus1=645.2 kv=2.402 kw=170.0 pf=0.8056510126494245 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=wye
+New Load.l646_dcz phases=1 bus1=646.3.2 kv=4.16 kw=230.0 pf=0.8673133941933718 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=delta
+New Load.l652_ycz_ph.1 phases=1 bus1=652.1 kv=2.402 kw=128.0 pf=0.8300495997825932 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=wye
+New Load.l571_dcpq_ph.1 phases=1 bus1=671.1 kv=2.402 kw=385.0 pf=0.8682431421244592 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=delta
+New Load.l571_dcpq_ph.2 phases=1 bus1=671.2 kv=2.402 kw=385.0 pf=0.8682431421244592 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=delta
+New Load.l571_dcpq_ph.3 phases=1 bus1=671.3 kv=2.402 kw=385.0 pf=0.8682431421244592 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=delta
+New Load.distributedload phases=3 bus1=671.1.2.3 kv=4.16 kw=200.0 pf=0.8650311892618034 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=wye
+New Load.l675_ycpq_ph.1 phases=1 bus1=675.1 kv=2.402 kw=485.0 pf=0.9311010850748034 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=wye
+New Load.l675_ycpq_ph.2 phases=1 bus1=675.2 kv=2.402 kw=68.0 pf=0.7498378553650925 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=wye
+New Load.l675_ycpq_ph.3 phases=1 bus1=675.3 kv=2.402 kw=290.0 pf=0.8072891017918288 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=wye
+New Load.l692_dci phases=1 bus1=692.3.1 kv=4.16 kw=170.0 pf=0.7476519144858309 status=variable model=1 CVRwatts=1.0 CVRvars=2.0 class=1 conn=delta

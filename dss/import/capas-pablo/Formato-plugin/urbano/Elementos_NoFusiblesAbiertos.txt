@@ -1,0 +1,5 @@
+New Relay.Cuchilla_112 MonitoredObj=LINE.IDLinea975_IDTramos_112 monitoredterm=2 State=Open
+New Relay.Cuchilla_18 MonitoredObj=LINE.IDLinea247_IDTramos_18 monitoredterm=2 State=Open
+New Relay.Cuchilla_6 MonitoredObj=LINE.IDLinea185_IDTramos_6 monitoredterm=1 State=Open
+New Relay.Cuchilla_107 MonitoredObj=LINE.IDLinea896_IDTramos_107 monitoredterm=1 State=Open
+New Relay.Cuchilla_106 MonitoredObj=LINE.IDLinea892_IDTramos_106 monitoredterm=1 State=Open

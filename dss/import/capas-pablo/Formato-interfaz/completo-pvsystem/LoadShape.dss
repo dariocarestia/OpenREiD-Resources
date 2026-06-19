@@ -1,0 +1,5 @@
+new loadshape.332 npts=24 interval=1 csvfile=residencial.csv
+new loadshape.333 npts=24 interval=1 csvfile=residencial.csv
+new loadshape.334 npts=24 interval=1 csvfile=residencial.csv
+new loadshape.335 npts=24 interval=1 csvfile=residencial.csv
+New "LoadShape.GFV01I_0100" npts=24 csvfile=GFV01I_0100.csv 

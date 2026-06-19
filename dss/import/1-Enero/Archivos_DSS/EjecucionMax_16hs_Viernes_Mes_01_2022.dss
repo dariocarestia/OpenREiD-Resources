@@ -1,0 +1,35 @@
+! Circuito Caucete_RedMT:
+!==================================================
+
+Clear
+
+Set DefaultBaseFrequency=50
+
+Redirect ET_Caucete.txt
+Redirect WireData.txt
+Redirect LineGeometry.txt
+Redirect Conexiones_ET.txt
+Redirect Red_MT.txt
+Redirect Transformadores.txt
+!Redirect Reconectador_3.txt
+Redirect Switches.txt
+!-----------------
+Redirect DMax_16hs_Viernes_Mes_01_2022.txt
+!-----------------
+
+Set voltagebases=[13.2, 33, 0.380]
+Calcvoltagebases
+
+! Define bus coordinates
+LatLongCoords Bus.txt
+
+Solve  
+
+! Grafico de Flujo de Potencia:
+plot circuit Power Max=2000 dots=n labels=n subs=y C1=Blue 1phlinestyle=3
+
+! Grafico de Tensiones:
+plot circuit Voltage Max=200 dots=n labels=n subs=y C1=Blue 1phlinestyle=3
+
+! Grafico de Perdidas:
+plot circuit Losses Max=20 dots=n labels=n subs=y C1=Blue 1phlinestyle=3

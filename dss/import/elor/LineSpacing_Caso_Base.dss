@@ -1,0 +1,10 @@
+New "LineSpacing.T13_2kV_3ph13_2" nconds=3 nphases=3 x=(-1.2, 0.0, 1.2) h=(10, 10.5, 10) units=m 
+New "LineSpacing.T22_9kV_1ph13_2" nconds=1 nphases=1 x=(0.0) h=(10) units=m 
+New "LineSpacing.T22_9kV_3ph13_2" nconds=3 nphases=3 x=(-1.2, 0.0, 1.2) h=(10, 10.5, 10) units=m 
+New "LineSpacing.T22_9kV_2ph22_9" nconds=2 nphases=2 x=(-1.2, 1.2) h=(10, 10.0) units=m 
+New "LineSpacing.T22_9kV_3ph22_9" nconds=3 nphases=3 x=(-1.2, 0.0, 1.2) h=(10, 10.5, 10) units=m 
+New "LineSpacing.T10_0kV_1ph" nconds=1 nphases=1 x=(0.0) h=(10) units=m 
+New "LineSpacing.T10_0kV_2ph" nconds=2 nphases=2 x=(-1.2, 1.2) h=(10, 10.0) units=m 
+New "LineSpacing.T10_0kV_3ph" nconds=3 nphases=3 x=(-1.2, 0.0, 1.2) h=(10, 10.5, 10) units=m 
+New "LineSpacing.T10kV_3ph" nconds=3 nphases=3 x=(-1.2, 0.0, 1.2) h=(10, 10.5, 10) units=m 
+New "LineSpacing.T22_9kV_3ph" nconds=3 nphases=3 x=(-1.2, 0.0, 1.2) h=(10, 10.5, 10) units=m 

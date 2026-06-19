@@ -1,0 +1,6 @@
+new LoadShape.ls645 npts=24 interval=1  csvfile=UserIndSum.csv  
+new LoadShape.ls646 npts=24 interval=1  csvfile=UserIndSum.csv 
+new LoadShape.ls633 npts=24 interval=1  csvfile=UserComSum.csv   
+new LoadShape.ls675 npts=24 interval=1  csvfile=UserComSum.csv   
+new LoadShape.ls611_low npts=24 interval=1  csvfile=UserResSum.csv 
+new LoadShape.ls652_low npts=24 interval=1  csvfile=UserResSum.csv

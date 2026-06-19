@@ -1,0 +1,445 @@
+LINE CONSTANTS
+Frequency = 50 Hz, Earth resistivity = 100 ohm-m
+Earth Model = Deri
+
+
+--------------------------------------------------
+Geometry Code = geometria_s16
+
+R MATRIX, ohms per kft
+0.65182, 
+0.014776, 0.65182, 
+0.0147759, 0.014776, 0.65182, 
+
+jX MATRIX, ohms per kft
+0.251838, 
+0.145961, 0.251838, 
+0.132686, 0.145961, 0.251838, 
+
+Susceptance (jB) MATRIX, S per kft
+7.4442E-007, 
+-2.45443E-007, 7.95994E-007, 
+-1.47816E-007, -2.45443E-007, 7.4442E-007, 
+
+L MATRIX, mH per kft
+0.801626, 
+0.464607, 0.801626, 
+0.422353, 0.464607, 0.801626, 
+
+C MATRIX, nF per kft
+2.36956, 
+-0.78127, 2.53373, 
+-0.470513, -0.78127, 2.36956, 
+
+-------------------------------------------------------------------
+-------------------Equiv Symmetrical Component --------------------
+-------------------------------------------------------------------
+
+
+Z1, ohms per kft = 0.637044 + j 0.110302 (L1 = 0.351103 mH) 
+Z0, ohms per kft = 0.681372 + j 0.53491 (L0 = 1.70267 mH) 
+
+C1, nF per kft = 3.10197
+C0, nF per kft = 1.06892
+
+Surge Impedance:
+  Positive sequence = 336.433 ohms
+  Zero sequence     = 1262.1 ohms
+  Common Mode       = 420.696 ohms
+
+Propagation Velocity (Percent of speed of light):
+  Positive sequence = 97.4223 
+  Zero sequence     = 75.3628 
+
+
+--------------------------------------------------
+Geometry Code = geometria_s25
+
+R MATRIX, ohms per kft
+0.414083, 
+0.014776, 0.414083, 
+0.0147759, 0.014776, 0.414083, 
+
+jX MATRIX, ohms per kft
+0.247193, 
+0.145961, 0.247193, 
+0.132686, 0.145961, 0.247193, 
+
+Susceptance (jB) MATRIX, S per kft
+7.7465E-007, 
+-2.61855E-007, 8.32003E-007, 
+-1.5537E-007, -2.61855E-007, 7.7465E-007, 
+
+L MATRIX, mH per kft
+0.786839, 
+0.464607, 0.786839, 
+0.422353, 0.464607, 0.786839, 
+
+C MATRIX, nF per kft
+2.46579, 
+-0.833511, 2.64835, 
+-0.494558, -0.833511, 2.46579, 
+
+-------------------------------------------------------------------
+-------------------Equiv Symmetrical Component --------------------
+-------------------------------------------------------------------
+
+
+Z1, ohms per kft = 0.399307 + j 0.105657 (L1 = 0.336316 mH) 
+Z0, ohms per kft = 0.443635 + j 0.530265 (L0 = 1.68788 mH) 
+
+C1, nF per kft = 3.24717
+C0, nF per kft = 1.08559
+
+Surge Impedance:
+  Positive sequence = 321.826 ohms
+  Zero sequence     = 1246.92 ohms
+  Common Mode       = 415.631 ohms
+
+Propagation Velocity (Percent of speed of light):
+  Positive sequence = 97.2899 
+  Zero sequence     = 75.1087 
+
+
+--------------------------------------------------
+Geometry Code = geometria_s35
+
+R MATRIX, ohms per kft
+0.304972, 
+0.014776, 0.304972, 
+0.0147759, 0.014776, 0.304972, 
+
+jX MATRIX, ohms per kft
+0.244199, 
+0.145961, 0.244199, 
+0.132686, 0.145961, 0.244199, 
+
+Susceptance (jB) MATRIX, S per kft
+7.95572E-007, 
+-2.73412E-007, 8.57136E-007, 
+-1.60547E-007, -2.73412E-007, 7.95572E-007, 
+
+L MATRIX, mH per kft
+0.777308, 
+0.464607, 0.777308, 
+0.422353, 0.464607, 0.777308, 
+
+C MATRIX, nF per kft
+2.53238, 
+-0.870298, 2.72835, 
+-0.511036, -0.870298, 2.53238, 
+
+-------------------------------------------------------------------
+-------------------Equiv Symmetrical Component --------------------
+-------------------------------------------------------------------
+
+
+Z1, ohms per kft = 0.290196 + j 0.102663 (L1 = 0.326786 mH) 
+Z0, ohms per kft = 0.334524 + j 0.52727 (L0 = 1.67835 mH) 
+
+C1, nF per kft = 3.34825
+C0, nF per kft = 1.09662
+
+Surge Impedance:
+  Positive sequence = 312.408 ohms
+  Zero sequence     = 1237.13 ohms
+  Common Mode       = 412.36 ohms
+
+Propagation Velocity (Percent of speed of light):
+  Positive sequence = 97.1972 
+  Zero sequence     = 74.942 
+
+
+--------------------------------------------------
+Geometry Code = geometria_s50
+
+R MATRIX, ohms per kft
+0.216896, 
+0.014776, 0.216896, 
+0.0147759, 0.014776, 0.216896, 
+
+jX MATRIX, ohms per kft
+0.240749, 
+0.145961, 0.240749, 
+0.132686, 0.145961, 0.240749, 
+
+Susceptance (jB) MATRIX, S per kft
+8.2123E-007, 
+-2.87803E-007, 8.882E-007, 
+-1.66832E-007, -2.87803E-007, 8.2123E-007, 
+
+L MATRIX, mH per kft
+0.766328, 
+0.464607, 0.766328, 
+0.422353, 0.464607, 0.766328, 
+
+C MATRIX, nF per kft
+2.61406, 
+-0.916107, 2.82723, 
+-0.531043, -0.916107, 2.61406, 
+
+-------------------------------------------------------------------
+-------------------Equiv Symmetrical Component --------------------
+-------------------------------------------------------------------
+
+
+Z1, ohms per kft = 0.20212 + j 0.0992131 (L1 = 0.315805 mH) 
+Z0, ohms per kft = 0.246448 + j 0.523821 (L0 = 1.66737 mH) 
+
+C1, nF per kft = 3.47287
+C0, nF per kft = 1.10961
+
+Surge Impedance:
+  Positive sequence = 301.554 ohms
+  Zero sequence     = 1225.83 ohms
+  Common Mode       = 408.583 ohms
+
+Propagation Velocity (Percent of speed of light):
+  Positive sequence = 97.0824 
+  Zero sequence     = 74.7468 
+
+
+--------------------------------------------------
+Geometry Code = geometria_s70
+
+R MATRIX, ohms per kft
+0.162351, 
+0.014776, 0.162351, 
+0.0147759, 0.014776, 0.162351, 
+
+jX MATRIX, ohms per kft
+0.237647, 
+0.145961, 0.237647, 
+0.132686, 0.145961, 0.237647, 
+
+Susceptance (jB) MATRIX, S per kft
+8.45869E-007, 
+-3.01845E-007, 9.18282E-007, 
+-1.72796E-007, -3.01845E-007, 8.45869E-007, 
+
+L MATRIX, mH per kft
+0.756454, 
+0.464607, 0.756454, 
+0.422353, 0.464607, 0.756454, 
+
+C MATRIX, nF per kft
+2.69248, 
+-0.960802, 2.92298, 
+-0.550027, -0.960802, 2.69248, 
+
+-------------------------------------------------------------------
+-------------------Equiv Symmetrical Component --------------------
+-------------------------------------------------------------------
+
+
+Z1, ohms per kft = 0.147575 + j 0.0961112 (L1 = 0.305931 mH) 
+Z0, ohms per kft = 0.191903 + j 0.520719 (L0 = 1.6575 mH) 
+
+C1, nF per kft = 3.59319
+C0, nF per kft = 1.12156
+
+Surge Impedance:
+  Positive sequence = 291.791 ohms
+  Zero sequence     = 1215.67 ohms
+  Common Mode       = 405.177 ohms
+
+Propagation Velocity (Percent of speed of light):
+  Positive sequence = 96.971 
+  Zero sequence     = 74.5686 
+
+
+--------------------------------------------------
+Geometry Code = geometria_s95
+
+R MATRIX, ohms per kft
+0.122137, 
+0.014776, 0.122137, 
+0.0147759, 0.014776, 0.122137, 
+
+jX MATRIX, ohms per kft
+0.234517, 
+0.145961, 0.234517, 
+0.132686, 0.145961, 0.234517, 
+
+Susceptance (jB) MATRIX, S per kft
+8.72399E-007, 
+-3.17203E-007, 9.50952E-007, 
+-1.79133E-007, -3.17203E-007, 8.72399E-007, 
+
+L MATRIX, mH per kft
+0.74649, 
+0.464607, 0.74649, 
+0.422353, 0.464607, 0.74649, 
+
+C MATRIX, nF per kft
+2.77693, 
+-1.00969, 3.02697, 
+-0.570199, -1.00969, 2.77693, 
+
+-------------------------------------------------------------------
+-------------------Equiv Symmetrical Component --------------------
+-------------------------------------------------------------------
+
+
+Z1, ohms per kft = 0.107361 + j 0.0929809 (L1 = 0.295967 mH) 
+Z0, ohms per kft = 0.151689 + j 0.517589 (L0 = 1.64754 mH) 
+
+C1, nF per kft = 3.72347
+C0, nF per kft = 1.13389
+
+Surge Impedance:
+  Positive sequence = 281.934 ohms
+  Zero sequence     = 1205.4 ohms
+  Common Mode       = 401.731 ohms
+
+Propagation Velocity (Percent of speed of light):
+  Positive sequence = 96.8497 
+  Zero sequence     = 74.3859 
+
+
+--------------------------------------------------
+Geometry Code = geometria_s120
+
+R MATRIX, ohms per kft
+0.098687, 
+0.014776, 0.098687, 
+0.0147759, 0.014776, 0.098687, 
+
+jX MATRIX, ohms per kft
+0.232093, 
+0.145961, 0.232093, 
+0.132686, 0.145961, 0.232093, 
+
+Susceptance (jB) MATRIX, S per kft
+8.94205E-007, 
+-3.3001E-007, 9.78023E-007, 
+-1.84271E-007, -3.3001E-007, 8.94205E-007, 
+
+L MATRIX, mH per kft
+0.738775, 
+0.464607, 0.738775, 
+0.422353, 0.464607, 0.738775, 
+
+C MATRIX, nF per kft
+2.84634, 
+-1.05045, 3.11314, 
+-0.586553, -1.05045, 2.84634, 
+
+-------------------------------------------------------------------
+-------------------Equiv Symmetrical Component --------------------
+-------------------------------------------------------------------
+
+
+Z1, ohms per kft = 0.0839111 + j 0.0905571 (L1 = 0.288252 mH) 
+Z0, ohms per kft = 0.128239 + j 0.515165 (L0 = 1.63982 mH) 
+
+C1, nF per kft = 3.8311
+C0, nF per kft = 1.14364
+
+Surge Impedance:
+  Positive sequence = 274.299 ohms
+  Zero sequence     = 1197.44 ohms
+  Common Mode       = 399.057 ohms
+
+Propagation Velocity (Percent of speed of light):
+  Positive sequence = 96.749 
+  Zero sequence     = 74.2425 
+
+
+--------------------------------------------------
+Geometry Code = geometria_s35_33
+
+R MATRIX, ohms per kft
+0.304972, 
+0.0147759, 0.304972, 
+0.0147759, 0.0147759, 0.304972, 
+
+jX MATRIX, ohms per kft
+0.244199, 
+0.130861, 0.244199, 
+0.117586, 0.130861, 0.244199, 
+
+Susceptance (jB) MATRIX, S per kft
+7.21224E-007, 
+-2.04639E-007, 7.60311E-007, 
+-1.1699E-007, -2.04639E-007, 7.21224E-007, 
+
+L MATRIX, mH per kft
+0.777308, 
+0.416543, 0.777308, 
+0.374289, 0.416543, 0.777308, 
+
+C MATRIX, nF per kft
+2.29573, 
+-0.651386, 2.42015, 
+-0.372391, -0.651386, 2.29573, 
+
+-------------------------------------------------------------------
+-------------------Equiv Symmetrical Component --------------------
+-------------------------------------------------------------------
+
+
+Z1, ohms per kft = 0.290196 + j 0.117763 (L1 = 0.37485 mH) 
+Z0, ohms per kft = 0.334524 + j 0.497071 (L0 = 1.58222 mH) 
+
+C1, nF per kft = 2.89559
+C0, nF per kft = 1.22042
+
+Surge Impedance:
+  Positive sequence = 359.799 ohms
+  Zero sequence     = 1138.62 ohms
+  Common Mode       = 379.523 ohms
+
+Propagation Velocity (Percent of speed of light):
+  Positive sequence = 97.5882 
+  Zero sequence     = 73.1652 
+
+
+--------------------------------------------------
+Geometry Code = geometria_s70_33
+
+R MATRIX, ohms per kft
+0.162351, 
+0.0147759, 0.162351, 
+0.0147759, 0.0147759, 0.162351, 
+
+jX MATRIX, ohms per kft
+0.237647, 
+0.130861, 0.237647, 
+0.117586, 0.130861, 0.237647, 
+
+Susceptance (jB) MATRIX, S per kft
+7.60326E-007, 
+-2.23914E-007, 8.05527E-007, 
+-1.25576E-007, -2.23914E-007, 7.60326E-007, 
+
+L MATRIX, mH per kft
+0.756454, 
+0.416543, 0.756454, 
+0.374289, 0.416543, 0.756454, 
+
+C MATRIX, nF per kft
+2.42019, 
+-0.712739, 2.56407, 
+-0.399721, -0.712739, 2.42019, 
+
+-------------------------------------------------------------------
+-------------------Equiv Symmetrical Component --------------------
+-------------------------------------------------------------------
+
+
+Z1, ohms per kft = 0.147575 + j 0.111211 (L1 = 0.353996 mH) 
+Z0, ohms per kft = 0.191903 + j 0.490519 (L0 = 1.56137 mH) 
+
+C1, nF per kft = 3.07655
+C0, nF per kft = 1.25135
+
+Surge Impedance:
+  Positive sequence = 339.209 ohms
+  Zero sequence     = 1117.03 ohms
+  Common Mode       = 372.295 ohms
+
+Propagation Velocity (Percent of speed of light):
+  Positive sequence = 97.4233 
+  Zero sequence     = 72.7363 
+

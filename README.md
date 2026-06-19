@@ -1,1 +1,2 @@
-# OpenREiD-Resources
+# OpenREiD-Recursos
+Recursos asociados a OpenREiD Repo

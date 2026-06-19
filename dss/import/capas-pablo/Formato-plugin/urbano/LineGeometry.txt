@@ -1,0 +1,69 @@
+
+// ============ Conductores a 13,2 kV ============
+
+New LineGeometry.Geometria_S16  nconds=3  nphases=3
+~ cond=1  wire=Conductor_S16 x=-0.5 h=10 units=m
+~ cond=2  wire=Conductor_S16 x=0 h=10 units=m
+~ cond=3  wire=Conductor_S16 x=0.5 h=10 units=m
+
+// Contantes S16 = "r1=0.00209004 r0=0.00223547 x1=0.000361884 x0=0.00175495 c1=0.0101771 c0=0.00350694"
+
+New LineGeometry.Geometria_S25  nconds=3  nphases=3
+~ cond=1  wire=Conductor_S25 x=-0.5 h=10 units=m
+~ cond=2  wire=Conductor_S25 x=0 h=10 units=m
+~ cond=3  wire=Conductor_S25 x=0.5 h=10 units=m
+
+// Contantes S25 = "r1=0.00131006 r0=0.0014555 x1=0.000346644 x0=0.00173971 c1=0.0106534 c0=0.00356164"
+
+New LineGeometry.Geometria_S35  nconds=3  nphases=3
+~ cond=1  wire=Conductor_S35 x=-0.5 h=10 units=m
+~ cond=2  wire=Conductor_S35 x=0 h=10 units=m
+~ cond=3  wire=Conductor_S35 x=0.5 h=10 units=m
+
+// Contantes S35 = "r1=0.000952086 r0=0.00109752 x1=0.00033682 x0=0.00172989 c1=0.0109851 c0=0.00359782"
+
+New LineGeometry.Geometria_S50  nconds=3  nphases=3
+~ cond=1  wire=Conductor_S50 x=-0.5 h=10 units=m
+~ cond=2  wire=Conductor_S50 x=0 h=10 units=m
+~ cond=3  wire=Conductor_S50 x=0.5 h=10 units=m
+
+// Contantes S50 = "r1=0.000663124 r0=0.000808557 x1=0.000325502 x0=0.00171857 c1=0.0113939 c0=0.00364045"
+
+New LineGeometry.Geometria_S70  nconds=3  nphases=3
+~ cond=1  wire=Conductor_S70 x=-0.5 h=10 units=m
+~ cond=2  wire=Conductor_S70 x=0 h=10 units=m
+~ cond=3  wire=Conductor_S70 x=0.5 h=10 units=m
+
+// Contantes S70 = "r1=0.00048417 r0=0.000629602 x1=0.000315326 x0=0.0017084 c1=0.0117887 c0=0.00367967"
+
+New LineGeometry.Geometria_S95  nconds=3  nphases=3
+~ cond=1  wire=Conductor_S95 x=-0.5 h=10 units=m
+~ cond=2  wire=Conductor_S95 x=0 h=10 units=m
+~ cond=3  wire=Conductor_S95 x=0.5 h=10 units=m
+
+// Contantes S95 = "r1=0.000352234 r0=0.000497666 x1=0.000305055 x0=0.00169813 c1=0.0122161 c0=0.00372013"
+
+New LineGeometry.Geometria_S120  nconds=3  nphases=3
+~ cond=1  wire=Conductor_S120 x=-0.5 h=10 units=m
+~ cond=2  wire=Conductor_S120 x=0 h=10 units=m
+~ cond=3  wire=Conductor_S120 x=0.5 h=10 units=m
+
+// Contantes S120 = "r1=0.000275299 r0=0.000420731 x1=0.000297103 x0=0.00169017 c1=0.0125692 c0=0.00375209"
+
+// ============ Conductores a 33,0 kV ============
+
+New LineGeometry.Geometria_S35_33  nconds=3  nphases=3
+~ cond=1  wire=Conductor_S35 x=-1.1 h=10 units=m
+~ cond=2  wire=Conductor_S35 x=0 h=10 units=m
+~ cond=3  wire=Conductor_S35 x=1.1 h=10 units=m
+
+// Contantes S35_33 = "r1=0.000952086 r0=0.00109752 x1=0.00038636 x0=0.00163081 c1=0.00949996 c0=0.0040402"
+
+New LineGeometry.Geometria_S70_33  nconds=3  nphases=3
+~ cond=1  wire=Conductor_S70 x=-1.1 h=10 units=m
+~ cond=2  wire=Conductor_S70 x=0 h=10 units=m
+~ cond=3  wire=Conductor_S70 x=1.1 h=10 units=m
+
+// Contantes S70_33 = "r1=0.00048417 r0=0.000629602 x1=0.000364866 x0=0.00160931 c1=0.0100937 c0=0.00410549"
+
+// OBSERVACION: No estamos considerando conductor neutro para red de Media Tensión

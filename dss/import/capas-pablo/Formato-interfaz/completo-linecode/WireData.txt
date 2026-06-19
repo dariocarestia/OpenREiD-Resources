@@ -1,0 +1,11 @@
+
+New WireData.Conductor_S16  Rdc=2.09  Runits=km diam=5.1  Radunits=mm emergamps=100
+New WireData.Conductor_S25  Rdc=1.31  Runits=km diam=6.5  Radunits=mm emergamps=125
+New WireData.Conductor_S35  Rdc=0.952 Runits=km diam=7.6  Radunits=mm emergamps=160
+New WireData.Conductor_S50  Rdc=0.663 Runits=km diam=9.1  Radunits=mm emergamps=195
+New WireData.Conductor_S70  Rdc=0.484 Runits=km diam=10.7 Radunits=mm emergamps=235
+New WireData.Conductor_S95  Rdc=0.352 Runits=km diam=12.6 Radunits=mm emergamps=300
+New WireData.Conductor_S120 Rdc=0.275 Runits=km diam=14.3 Radunits=mm emergamps=340
+
+// OBSERVACION: Hay dos conductores de 50mm2 --> Elegimos el se mayor Rdc
+// OBSERVACION: Consideramos a la "corriente admisible" del catalogo como "emergamps

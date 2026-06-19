@@ -1,0 +1,8 @@
+modelo	ID_Linea	ID_Tramos
+Reconectador	921	1478.0
+Reconectador	810	1226.0
+Reconectador	314	423.0
+Reconectador	951	1606.0
+Reconectador	483	825.0
+Reconectador	865	1566.0
+Reconectador	853	1252.0

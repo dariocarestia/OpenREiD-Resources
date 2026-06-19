@@ -1,0 +1,2 @@
+New Transformer.TransformadorSubstation Tap=1 Buses=[Substation115kV.1.2.3, 650.1.2.3] XfmrCode=SubstationTyp3ph 
+New Transformer.XFM_1 Tap=1 Buses=[633.1.2.3, 634.1.2.3] XfmrCode=XFM_1Typ 

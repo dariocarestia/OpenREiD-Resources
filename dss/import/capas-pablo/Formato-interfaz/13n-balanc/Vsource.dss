@@ -1,0 +1,1 @@
+New Circuit.source bus1=substation.1.2.3 pu=1.0 basekv=132.0 r1=0 r0=0 x1=0.001 x0=0.001 phases=3

@@ -1,0 +1,6 @@
+ID_ET	nombre	detalles	imagen	origen_dat	fecha	direccion	Coord_X	Coord_Y	Conexion_B	Distancia_
+1.0	ET Caucete	5 distribuidores	C:\QGIS\QGIS_2019\BASE_IMAGENES\ET\E.T.Google.jpg	Digitalizacion	11/11/2019	Alem y Av. de Los Rios	2567309.1377500985	6497985.460571376	1545.0	21.855308522426032
+1.0	ET Caucete	5 distribuidores	C:\QGIS\QGIS_2019\BASE_IMAGENES\ET\E.T.Google.jpg	Digitalizacion	11/11/2019	Alem y Av. de Los Rios	2567309.1377500985	6497985.460571376	1569.0	25.90422713991498
+1.0	ET Caucete	5 distribuidores	C:\QGIS\QGIS_2019\BASE_IMAGENES\ET\E.T.Google.jpg	Digitalizacion	11/11/2019	Alem y Av. de Los Rios	2567309.1377500985	6497985.460571376	117.0	26.105763848546182
+1.0	ET Caucete	5 distribuidores	C:\QGIS\QGIS_2019\BASE_IMAGENES\ET\E.T.Google.jpg	Digitalizacion	11/11/2019	Alem y Av. de Los Rios	2567309.1377500985	6497985.460571376	128.0	27.269713839210976
+1.0	ET Caucete	5 distribuidores	C:\QGIS\QGIS_2019\BASE_IMAGENES\ET\E.T.Google.jpg	Digitalizacion	11/11/2019	Alem y Av. de Los Rios	2567309.1377500985	6497985.460571376	1543.0	45.675719254066045

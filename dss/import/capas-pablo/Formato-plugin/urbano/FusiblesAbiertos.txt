@@ -1,0 +1,3 @@
+New Relay.Fusible_4 monitoredobj=LINE.IDLinea159_IDTramos_4 monitoredterm=2  State=Open 
+New Relay.Fusible_53 monitoredobj=LINE.IDLinea687_IDTramos_53 monitoredterm=2  State=Open 
+New Relay.Fusible_117 monitoredobj=LINE.IDLinea986_IDTramos_117 monitoredterm=2  State=Open 

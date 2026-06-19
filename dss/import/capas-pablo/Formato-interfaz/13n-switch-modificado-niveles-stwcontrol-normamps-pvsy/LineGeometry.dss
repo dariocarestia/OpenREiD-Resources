@@ -1,0 +1,4 @@
+New LineGeometry.lineconfig601 nconds=4 nphases=3 spacing=lineconfig601_spacing wires=(556_5acsr, 556_5acsr, 556_5acsr, n4acsr) reduce=yes
+New LineGeometry.lineconfig602 nconds=4 nphases=3 spacing=lineconfig602_spacing wires=(n4acsr, n4acsr, n4acsr, n4acsr) reduce=yes
+New LineGeometry.lineconfig603_604 nconds=3 nphases=2 spacing=lineconfig603_604_spacing wires=(n1acsr, n1acsr, n1acsr) reduce=yes
+New LineGeometry.lineconfig605 nconds=2 nphases=1 spacing=lineconfig605_spacing wires=(n1acsr, n1acsr) reduce=yes

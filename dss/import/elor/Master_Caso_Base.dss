@@ -1,0 +1,16 @@
+Clear
+
+New Circuit.Caso_Base
+
+Redirect Vsource_Caso_Base.dss
+Redirect WireData_Caso_Base.dss
+Redirect LineSpacing_Caso_Base.dss
+Redirect XfmrCode_Caso_Base.dss
+Redirect Transformer_Caso_Base.dss
+Redirect Line_Caso_Base.dss
+Redirect Load_Caso_Base.dss
+Redirect Voltagebases_Caso_Base.dss
+
+LatLongCoords Buscoords_Caso_Base.csv
+
+solve

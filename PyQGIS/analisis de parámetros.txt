@@ -1,0 +1,112 @@
+Pruebas con modelos de linea:
+Las pruebas se hicieron creando una instancia dss, con la Interface COM, de red modelada por comandos, específicamente para analizar las líneas
+de la forma que se indica y luego se inspecconaron los parámetros de la linea a través de la interface Lines.
+
+****************************
+1º caso: Linea definida por impedancias en la propia definición de Line:
+New Line.idlinea937_idtramos_1497 bus1=977 bus2=1557 length=9.525 units=m r1=0.00048417 r0=0.000629602 x1=0.000315326 x0=0.0017084 c1=0.0117887 c0=0.00367967 enabled=true phases=3
+
+****************************
+2º caso: Linea definida por impedancias a través de Line+LineCode:
+New Line.idlinea937_idtramos_1497 bus1=977 bus2=1557 length=9.525 units=m enabled=true phases=3 linecode=Geometria_S70
+New LineCode.Geometria_S70  nphases=3  r1=0.00048417  r0=0.000629602  x1=0.000315326  x0=0.0017084  c1=0.0117887  c0=0.00367967
+
+
+R(0.0005326473333333334, 4.847733333333334e-05, 4.847733333333334e-05, 4.847733333333334e-05, 0.0005326473333333334, 4.847733333333334e-05, 4.847733333333334e-05, 4.847733333333334e-05, 0.0005326473333333334)
+X(0.0007796839999999999, 0.0004643579999999999, 0.0004643579999999999, 0.0004643579999999999, 0.0007796839999999999, 0.0004643579999999999, 0.0004643579999999999, 0.0004643579999999999, 0.0007796839999999999)
+C(0.00908569, -0.00270301, -0.00270301, -0.00270301, 0.00908569, -0.00270301, -0.00270301, -0.00270301, 0.00908569)
+
+Conclusión: entre los dos casos, los parametros r, x, c, y las matrices R, X y C coinciden, sin embargo, el parámetro units leido desde la interfaz Lines, viene units=0  
+a pesar de que en la definición se colocó units=m.
+
+****************************
+3º caso: Linea definida por geometría con Line+LineGeometry+LineSpacing+WireData:
+New Line.idlinea937_idtramos_1497 Bus1=977 Bus2=1557 Length=9.525 Geometry=Geometria_S70 Units=m
+New LineGeometry.Geometria_S70 nconds=3 nphases=3 spacing=Spacing_13_2
+~ cond=1 wire=Conductor_S70
+~ cond=2 wire=Conductor_S70
+~ cond=3 wire=Conductor_S70
+New LineSpacing.Spacing_13_2 nconds=3 nphases=3 units=m
+~ x=[-0.5, 0, 0.5]
+~ h=[10, 10, 10]
+New WireData.Conductor_S70  Rdc=0.484 Runits=km diam=10.7 Radunits=mm emergamps=235
+
+Al consultar los parámetros, los R, X y C matrix, dan muy similares a los producidos por los modelos anteriores, apenas varia un poco X, y C matrix, pero igual se acercan mucho. 
+Sin embargo, los valores de r1, r0, x1, xo, c1, c0 difieren, son mucho mayores:
+
+R(0.0005326474252463483, 4.84775342388541e-05, 4.8477511637091455e-05, 4.84775342388541e-05, 0.0005326474252463483, 4.84775342388541e-05, 4.8477511637091455e-05, 4.84775342388541e-05, 0.0005326474252463483)
+X(0.0007796820292664476, 0.0004788737595004612, 0.0004353220404500231, 0.0004788737595004612, 0.0007796820292664476, 0.0004788737595004612, 0.0004353220404500231, 0.0004788737595004612, 0.0007796820292664476)
+C(0.008833611787822762, -0.0031522389827218045, -0.0018045519341736258, -0.0031522389827218045, 0.009589837336501502, -0.003152238982721805, -0.0018045519341736258, -0.003152238982721805, 0.008833611787822762)
+
+r1=0.058
+r0=0.1784
+x1=0.1206
+x0=0.4047
+c1=3.4
+c0=1.6
+
+Necesito en este punto disponer de un método para exportar de vuelta los datos hacia opendss con éstos parámetros importados inicialmente desde el modelo de la red, ya sea que se halla modelado de una de las 
+3 formas, sin embargo, en el tercer caso, al exportar las lineas a través de los parámetros r, x y c, y ejecular el flujo de cargas, éste difiere por ser diferentes los valores de estos parámetro. Por otro 
+lado si la exportación solo exporta los parámetros de las matrices R, X y C, con los valores mensionados, se produce un error en opendss. Quisiera que analices los valores leidos en el tercer caso para queme ayudes a dilucidar
+la relacion entre los parámetros r,x y c en el tercer caso, porque toman estos valores mayores y que ensayes si puede tratarse de un problema de diferencias de unidades. los valores en el tercer caso deben ser 
+equivalentes a los dos primeros ya que se trata de la misma línea y con los mismos valores de impedancias en ese tramo. Las medidas de la longitud del tramo, en los tres casos es correcta y está expresada en metros. 
+
+
+!!! Ahora me doy cuenta que los valores de r,x, y c, son todos iguales para todas las líneas, en el tercer caso. por lo tanto, si el modelo utiliza geometrías, no recalcula estos parámetros, solo las matrices.
+
+Tengo ahora dos alternativas, y las dos son complicadas. Una es para la exportación utilizar siempre las matrices, pero está ocurriendo un error si creo el archivo Lines.dss con las declaraciones de todas las 
+lines especificando las matrices , tal como las leo con la interfaz COM, no se si esto se debe a la cantidad de digitos decimales o a un error de sintaxis, por otro lado si quisiera cerar las declaraciones de 
+lineas a través de r,x, y c, debería calcularlos para cada línea en base a los valores de las matrices, esto no se si podría representar un grán tiempo de cálculo, debido a que debo contemplar la posibilidad 
+tambien de lineas desbalanceadas.
+
+Conclusión:
+
+A la hora de la importación de Lineas:
+
+Si existen los archivos: LineGeometry.dss, LineSpacing.dss, WireData.dss, (LineCode.dss se puede accesar desde la Interfaz COM)
+    ->deben copiarse en la carpeta de trabajo (power-flow) para estar disponibles a la hora de cargar la instancia.-> En realidad deben leerse y cargar las capas de parámetros
+    para a la hora de exportar poder exportar, replicando los mismos archivos, no deben simplemente copiarse para dar la posibilidad de edición.
+Si no existe alguno:
+    ->debe crearse vacío.
+
+El master, siempre debe invocar por defecto todos los redirect:
+
+Redirect WireData.dss
+Redirect LineSpacing.dss
+Redirect LineGeometry.dss
+Redirect LineCode.dss
+Redirect Line.dss
+
+En los parámetros que se copian de la línea, deben copiarse:
+
+->linecode
+->geometry
+              
+OpenDss tomará segun tenga valores en uno o el otro parámetro o si no tiene ninguno tomará las 
+impedancias directamente de los atributos de la línea.
+
+***************Modelos de Cargas***************************************************
+La idea en principio es; importar en una capa los LoadShaphe, no importa si más adelante se ocupen objetos para varios PC-Elements.
+Primero importar los elementos LoadShaphe en una capa nueva, a través de la interfaz COM y establecer los atributos, ya sea pmult o csvfile (en este caso, si el parámetro apuntaba a una dirección absoluta, los archivos de salida de GeoREID van a seguir vinculando ese mismo archivo. Si tiene una dirección relativa, por ejemplo al directorio raiz donde se encuentra el master, hay que asegurarse de copiarlo ya que sinó va a fallar el cálculo de flujo en el archivo temporal de cálculo).
+
+Luego Importar los elementos Cargas (Load) como se hace, pero para el atributo "daily" utilizar un combo de selección, similar al funcionamiento de las lineas. 
+
+****modelo con LoadShape + csv***
+New "Load.300162" bus1=3819265_p_2.1.2.3 phases=3 conn=LL model=1 kV=0.4 Kw=250.05 kvar=0 daily=PC01_IndMin2024_30 Vminpu=0.9 Vmaxpu=1.1
+New "LoadShape.PC01_IndMin2024_30" npts=24 csvfile=C:\OpenPRED\Hidrandina_TOE105_v6\ZZAux\PC01_IndMin2024_30.csv 
+
+****modelo con LoadShape + mult ó pmult***
+New Load.carga_idseta_205 phases=3 bus1=x_205.1.2.3.0 kv=0.38 kw=3.4671814775458443 pf=0.9 status=variable model=1 CVRwatts=0.8 CVRvars=3.0 class=1 daily=332 conn=wye
+new "loadshape.332" npts=24 interval=1 mult=(0.72, 0.71, 0.70, 0.69, 0.67, 0.66, 0.68, 0.71, 0.75, 0.77, 0.78, 0.80, 0.72, 0.71, 0.70, 0.69, 0.67, 0.66, 0.68, 0.71, 0.75, 0.77, 0.78, 0.80)
+
+Conclusión: Ya que noté que al modelar por csv, accesando desde la interfaz COM al parámetro mult, se obtienen los datos del csv, opto por prescindir de importarlo por separado o tener que exportarlo en el calculo, simplemente se exporta el parámetro mult.
+
+
+*************************************************************************************
+
+
+
+
+
+
+

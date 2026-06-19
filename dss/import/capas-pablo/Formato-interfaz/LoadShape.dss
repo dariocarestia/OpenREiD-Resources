@@ -1,0 +1,3 @@
+New LoadShape.GFV01I_0100 npts=24 csvfile=GFV01I_0100.csv
+New LoadShape.GBio01_0100 npts=24 csvfile=GBio01_0100.csv
+New LoadShape.GGe01_0100 npts=24 csvfile=GGe01_0100.csv
