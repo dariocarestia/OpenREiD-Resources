@@ -479,6 +479,24 @@ xycurve_layer_path = os.path.join(lib_dir, 'xycurve.shp')
 QgsVectorFileWriter.writeAsVectorFormat(xycurve_layer, xycurve_layer_path, 'utf-8', xycurve_layer.crs(), 'ESRI Shapefile')
 
 
+# Crear capa para TCC_Curve
+tcccurve_layer = QgsVectorLayer(f"Point?crs={crs.authid()}", "tcccurve", "memory")
+tcccurve_layer_provider = tcccurve_layer.dataProvider()
+tcccurve_layer_provider.addAttributes([
+    #******<Parametros esenciales no presentes en interfaz*****
+    QgsField("id", QVariant.String),
+    #******<Parametros esenciales***************
+    QgsField("npts", QVariant.String),
+    QgsField("c_array", QVariant.String),
+    QgsField("t_array", QVariant.String)
+    #******<Parametros adicionales**************
+    #******>Parametros***************
+])
+tcccurve_layer.updateFields()
+tcccurve_layer_path = os.path.join(lib_dir, 'tcccurve.shp')
+QgsVectorFileWriter.writeAsVectorFormat(tcccurve_layer, tcccurve_layer_path, 'utf-8', tcccurve_layer.crs(), 'ESRI Shapefile')
+
+
 # Crear capa para TShapes
 tshape_layer = QgsVectorLayer(f"Point?crs={crs.authid()}", "tshape", "memory")
 tshape_layer_provider = tshape_layer.dataProvider()
@@ -733,6 +751,7 @@ loadshape_layer = QgsVectorLayer(loadshape_layer_path, "loadshape", "ogr")
 settings_layer = QgsVectorLayer(settings_layer_path, "settings", "ogr")
 tshape_layer = QgsVectorLayer(tshape_layer_path, "tshape", "ogr")
 xycurve_layer = QgsVectorLayer(xycurve_layer_path, "xycurve", "ogr")
+tcccurve_layer = QgsVectorLayer(tcccurve_layer_path, "tcccurve", "ogr")
 xfmrcode_layer  = QgsVectorLayer(xfmrcode_layer_path, "xfmrcode", "ogr")
 
 # Crear y organizar grupos de capas
@@ -767,6 +786,7 @@ lib_group.addLayer(QgsProject.instance().addMapLayer(tsdata_layer, False))
 lib_group.addLayer(QgsProject.instance().addMapLayer(loadshape_layer, False))
 lib_group.addLayer(QgsProject.instance().addMapLayer(tshape_layer, False))
 lib_group.addLayer(QgsProject.instance().addMapLayer(xycurve_layer, False))
+lib_group.addLayer(QgsProject.instance().addMapLayer(tcccurve_layer, False))
 lib_group.addLayer(QgsProject.instance().addMapLayer(settings_layer, False))
 lib_group.addLayer(QgsProject.instance().addMapLayer(xfmrcode_layer, False))
 
