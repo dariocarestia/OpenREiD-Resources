@@ -20,3 +20,5 @@ Calcvoltagebases
 set mode=Snapshot
 solve
 LatLongCoords Buscoords.csv
+
+export cim100 substation=nombre_subestacion geo=nombre_region subgeo=nombre_subregion file=13n-unbalanced.xml 
