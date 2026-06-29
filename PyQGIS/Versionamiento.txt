@@ -47,5 +47,5 @@ create_geometries_4.9 (Para incorporar CNData y TSData y parámetros relacionado
 create_geometries_5.0 (Aparatos de maniobra-> CURRENT_SCHEMA_VERSION = "4")
 ---------------------
 create_geometries_5.1 (Para incorporar capa para librería tcccurve -> TCC_Curve.dss -> Continúo en SCHEMA = 4 )
-
+---------------------
 
