@@ -1,2 +1,3 @@
-New Swtcontrol.switch SwitchedObj=Line.switch SwitchedTerm=1 State=closed
-New Swtcontrol.75cd8275-35d9-4468-8f5e-4f5becc00c69 SwitchedObj=Line.879a22ee-82c6-4480-85e9-f844c133c7ea SwitchedTerm=1 State=closed
+New Swtcontrol.switch SwitchedObj=Line.switch SwitchedTerm=1 Normal=closed State=closed
+New Swtcontrol.75cd8275-35d9-4468-8f5e-4f5becc00c69 SwitchedObj=Line.879a22ee-82c6-4480-85e9-f844c133c7ea SwitchedTerm=1 Normal=closed State=closed
+New Swtcontrol.51b5d97d-1a83-441e-9bb7-45396ec9a161 SwitchedObj=Line.800e2922-688f-47d6-bb4f-bf2fb5e35751 SwitchedTerm=2 Normal=open State=open

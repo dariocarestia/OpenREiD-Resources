@@ -1,1 +1,1 @@
-New Fuse.aed314fc-a59f-4d7c-a3ee-166d2bee9ab2 monitoredobj=Line.879a22ee-82c6-4480-85e9-f844c133c7ea monitoredterm=2 SwitchedObj=Line.879a22ee-82c6-4480-85e9-f844c133c7ea SwitchedTerm=2 fusecurve=Klink ratedcurrent=500
+New Fuse.aed314fc-a59f-4d7c-a3ee-166d2bee9ab2 MonitoredObj=Line.879a22ee-82c6-4480-85e9-f844c133c7ea MonitoredTerm=2 SwitchedObj=Line.879a22ee-82c6-4480-85e9-f844c133c7ea SwitchedTerm=2 FuseCurve=klink RatedCurrent=500.0 Delay=0.0 Normal=[closed closed closed] State=[closed closed closed]

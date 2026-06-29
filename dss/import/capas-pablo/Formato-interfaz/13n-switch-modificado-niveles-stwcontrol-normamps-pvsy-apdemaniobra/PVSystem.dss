@@ -1,1 +1,1 @@
-New PVSystem.05fdc0d0-8593-4be1-9eae-96f007fe7295 phases=3 bus1=684 kv=4.16 irradiance=1 pmpp=2000 temperature=25 kva=2500 effcurve=GFV01E_0100 daily=GFV01I_0100 tdaily=GFV01T_0100
+New PVSystem.2529e90a-ce48-408b-a0a9-762f8b5a93b2 phases=3 bus1=0842a6ca-f8e1-4a58-817c-a32f460c0bd4.1.2.3 kv=4.16 irradiance=1.0 pmpp=2000.0 temperature=25.0 kva=2500.0 effcurve=gfv01e_0100 daily=gfv01i_0100 tdaily=gfv01t_0100

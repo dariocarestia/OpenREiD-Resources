@@ -1,9 +1,0 @@
-New LineSpacing.lineconfig601_spacing nconds=4 nphases=3 units=m x=(-0.3048, -1.0668, 1.0668, 0.1523999951232) h=(8.5344, 8.5344, 8.5344, 7.31519976591361)
-New LineSpacing.lineconfig602_spacing nconds=4 nphases=3 units=m x=(-0.3048, 1.0668, -1.0668, 0.1523999951232) h=(8.5344, 8.5344, 8.5344, 7.31519976591361)
-New LineSpacing.lineconfig603_604_spacing nconds=3 nphases=2 units=m x=(-1.0668, 1.0668, 0.1523999951232) h=(8.5344, 8.5344, 7.31519976591361)
-New LineSpacing.lineconfig605_spacing nconds=2 nphases=1 units=m x=(0.0, 0.1523999951232) h=(8.8392, 7.31519976591361)
-// === Para Conductores Subterraneos ====
-New LineSpacing.Spacing_606 nconds=3 nphases=3 units=m x=(-0.1524, 0, 0.1524) h=(-1.2192, -1.2192, -1.2192)
-New LineSpacing.Spacing_400_XLPE nconds=3 nphases=3 units=m x=(-0.026, 0, 0.026) h=(-1.045, -1, -1.045)
-
-

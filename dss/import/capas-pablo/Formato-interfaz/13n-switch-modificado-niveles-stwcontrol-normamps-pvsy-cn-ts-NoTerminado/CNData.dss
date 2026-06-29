@@ -1,3 +1,0 @@
-New CNData.400_XLPE Runits=km Radunits=mm GMRunits=mm InsLayer=6.5 DiaIns=36.2 DiaCable=52 epsR=2.25 Rac=0.102 diam=23.2 normamps=501 GMRac=8.866 Rstrand=7.722 GMRstrand=0.347 Diastrand=0.892 k=56
-new CNData.CN_250 Runits=mi Radunits=in gmrunits=in InsLayer=0.220 DiaIns=1.06 DiaCable=1.29 EpsR=2.3 Rac=0.41 diam=0.567 normamps=260 GMRac=0.20520 Rstrand=14.8722 GmrStrand=0.02496 DiaStrand=0.0641 k=13
-new CNData.CN_1/0AL Runits=mi Radunits=in gmrunits=in InsLayer=0.345 DiaIns=1.0625 DiaCable=1.29 EpsR=2.3 Rac=0.9580000 diam=0.368 normamps=265 GMRac=0.13320 Rstrand=14.8722 GmrStrand=0.02496 DiaStrand=0.0641 k=6

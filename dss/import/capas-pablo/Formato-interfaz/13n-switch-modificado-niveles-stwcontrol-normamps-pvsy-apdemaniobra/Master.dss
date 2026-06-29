@@ -1,7 +1,10 @@
 Clear
-Set DefaultBaseFrequency=50
+Set DefaultBaseFrequency=50.0
 Redirect Vsource.dss
+Redirect LineCode.dss
 Redirect WireData.dss
+Redirect CNData.dss
+Redirect TSData.dss
 Redirect LineSpacing.dss
 Redirect LineGeometry.dss
 Redirect Line.dss
@@ -19,8 +22,8 @@ Redirect Load.dss
 Redirect Capacitor.dss
 Redirect PVSystem.dss
 Redirect Generator.dss
-Redirect Voltagebases.dss
+Set voltagebases=[115.     4.16   0.48]
 Calcvoltagebases
-set mode=Snapshot
+set mode=0
 solve
 LatLongCoords Buscoords.csv

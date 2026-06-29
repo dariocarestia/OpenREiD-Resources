@@ -16,3 +16,4 @@ New Line.5c2e0b93-ec27-4cec-a069-311a95d0e2ac bus1=e9c7fddc-0298-4bb0-af01-af445
 New Line.f1dda4b1-128e-4d67-8c75-48ecaeb1cc1f bus1=f63d9695-b85e-42ff-a486-b097509f9524.1.2.3.4 bus2=3c7a10ce-e759-4b1f-8d96-8124e6028b80.1.2.3.4 length=23.34 Geometry=lineconfig602 units=m phases=3
 New Line.33900851-b396-4081-acf8-4da3efb2f8ae bus1=substation115kv.1.2.3 bus2=f5d369c9-9d9f-4b35-9ca3-5d6ab0da6dcd.1.2.3 length=49.08 Geometry=lineconfig601 units=m phases=3
 New Line.879a22ee-82c6-4480-85e9-f844c133c7ea bus1=344c8433-5eba-4c95-87d4-d3a5299da001.1.2.3 bus2=rg60.1.2.3 length=61.46 Geometry=lineconfig601 units=m phases=3
+New Line.800e2922-688f-47d6-bb4f-bf2fb5e35751 bus1=671.1.2.3.4 bus2=0842a6ca-f8e1-4a58-817c-a32f460c0bd4.1.2.3.4 length=55.17 Geometry=lineconfig601 units=m phases=3
