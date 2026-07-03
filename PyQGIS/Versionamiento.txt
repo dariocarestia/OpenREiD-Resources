@@ -36,7 +36,7 @@ Mas allá de que ya el código va en el plugin, vamos a continuar actualizando e
 2) Lo guardo en una carpeta cualquiera, con el nombre red.qgz
 3) Ejecuto create_geometries (De esta manera se generan las capas, sin estilos)
 4) Incorporo el mapa
-5) Comprimo en zip el contenido y renombro a template.reid
+5) Comprimo en zip el contenido y renombro a template.reid (comprimir el contenido, No la carpeta contenedora)
 ****/<COMO MODIFICAR EL TEMPLATE>****
 
 create_geometries_4.7 (Ya ordena los shape de capas eléctricas y librerías en carpetas /RED, /LIBRERIAS respectivamente. El grupo de CÁLCULOS "CALC" y directorio análogo que se usará para incluir capas específicas de resultados, y tambien el grupo "INFO" que se crea para la importación de capas externas, tambien deben alojar sus .shp en directorios correspondientes, pero estos deben crearse en la ejecución de la importación o el cálculo.)
