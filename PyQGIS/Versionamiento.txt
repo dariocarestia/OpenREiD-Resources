@@ -33,7 +33,7 @@ Mas allá de que ya el código va en el plugin, vamos a continuar actualizando e
 
 ****<COMO MODIFICAR EL TEMPLATE>****
 1) Inicio un proyecto nuevo vacío
-2) Lo guardo en una carpeta cualquiera, con el nombre red.qgz
+2) Lo guardo en una carpeta cualquiera, con el nombre Red1.qgz
 3) Ejecuto create_geometries (De esta manera se generan las capas, sin estilos)
 4) Incorporo el mapa
 5) Comprimo en zip el contenido y renombro a template.reid (comprimir el contenido, No la carpeta contenedora)
@@ -46,6 +46,7 @@ create_geometries_4.9 (Para incorporar CNData y TSData y parámetros relacionado
 ---------------------
 create_geometries_5.0 (Aparatos de maniobra-> CURRENT_SCHEMA_VERSION = "4")
 ---------------------
-create_geometries_5.1 (Para incorporar capa para librería tcccurve -> TCC_Curve.dss -> Continúo en SCHEMA = 4 )
+create_geometries_5.1 (Ya incorpora capa para librería tcccurve -> TCC_Curve.dss -> Continúo en SCHEMA = 4 )
 ---------------------
+create_geometries_5.2 (Para renombrar el atributo "solu_mode" de la capa settings a "control_mode" cambiamos a  SCHEMA = 5 )
 
