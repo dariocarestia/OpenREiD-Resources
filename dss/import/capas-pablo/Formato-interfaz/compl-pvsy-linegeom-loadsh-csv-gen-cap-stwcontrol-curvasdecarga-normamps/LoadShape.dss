@@ -19,6 +19,6 @@ new loadshape.335 npts=24 interval=1 csvfile=verano-habil-335.csv
 !new loadshape.334 npts=24 interval=1 csvfile=invierno-feriado-334.csv
 !new loadshape.335 npts=24 interval=1 csvfile=invierno-feriado-335.csv
 !---CURVAS GENERADORES---
-New LoadShape.GFV01I_0100 npts=24 csvfile=GFV01I_0100.csv
-New LoadShape.GBio01_0100 npts=24 csvfile=GBio01_0100.csv
-New LoadShape.GGe01_0100 npts=24 csvfile=GGe01_0100.csv
+New LoadShape.GFV01I_0100 npts=24 interval=1 csvfile=GFV01I_0100.csv
+New LoadShape.GBio01_0100 npts=24 interval=1 csvfile=GBio01_0100.csv
+New LoadShape.GGe01_0100 npts=24 interval=1 csvfile=GGe01_0100.csv
